@@ -26,7 +26,7 @@ The figures belong to the **working session**: they count from switch-on and are
 7. **Population** of the line, in thousands of seeds per hectare.
 8. **Averages** over all lines watched. With two groups of sensors, two such lines, **A** and **B**.
 
-The first of four tables of a 12-row planter in the “Precise” mode, standing still.
+The first table of a 12-row planter in the “Precise” mode, standing still.
 :::
 
 Columns 3 to 7 belong to the **last completed recalculation interval** — the stretch set by **“Recalculation,m”** (or **“Recalculation,sec”** without a speed sensor), shown at the bottom right. Only column 2 is a live reading. After the machine stops, the figures of the last interval stay on the screen to be read at leisure. A further column, **%**, gives the deviation of each line from the target, with its sign; positive means more seeds and a closer spacing.
@@ -39,6 +39,16 @@ Columns 3 to 7 belong to the **last completed recalculation interval** — the s
 | **Seed counters** | Always. |
 | **Dry fertilizer** | There are fertilizer sensors and their mode is not **“Precise”**. |
 | **Liquid fertilizer** | There are liquid fertilizer sensors. |
+
+A planter with seed in **“Precise”** and dry-fertilizer sensors has four tables. **“PLUS”** goes to the next one, **“MINUS”** to the previous one; the page indicator at the top right shows which one you are on.
+
+![Table 1 of 4 — rate per area: seeds per metre, quality, doubles, skips and the population of every line.](figures/mini-table-view-1)
+
+![Table 2 of 4 — rate per distance: the same columns with seeds per metre in place of the population.](figures/mini-table-view-2)
+
+![Table 3 of 4 — seed counters: seeds counted per line and the bar of the deviation.](figures/mini-table-view-3)
+
+![Table 4 of 4 — dry fertilizer: the flow of every fertilizer line and its deviation.](figures/mini-table-view-4)
 
 If seed and fertilizer are both in **“Precise”**, the fertilizer lines appear in the seed tables as group **B**, in light yellow type.
 

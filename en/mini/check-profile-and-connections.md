@@ -10,27 +10,28 @@ url: https://docs.agriwelt.com/en/mini/check-profile-and-connections.html
 
 The first check after installing a Hectare Mini — does the profile match the machine, does every device answer, is every sensor under control — as a procedure with what the screen shows at each step.
 
-The panel watches only the devices its **profile** lists. Systems are usually delivered with the profile already set, but before you set any parameter, check that it matches the machine and that every device answers. You need no access code for this check.
+The panel watches only the devices its **profile** lists. Systems are usually delivered with the profile already set, but before you set any parameter, check that it matches the machine and that every device answers. Checking the profile needs the **“Service”** level, which asks for a PIN — the dealer gives it for your panel; see [Enable the Agronomist level](enable-agronomist-level.md). The other two checks need no code.
 
 ## 1. Check the profile
 
 ::: steps
 1. Connect all devices to the panel and power them as the wiring diagram in the data sheet of the system shows.
 
-2. **Hold “UP”** and switch the panel on. The splash screen appears, then the profile view. Release the button.
+2. Switch the panel on. After the splash screen the home screen appears.
 
-   ![The profile view shown at start-up.](figures/profile-view)
+3. Raise the access level to **“Service”**: **“MENU”** → **“Settings”** → **“User”** → **“Service”**, **“MENU”**, PIN — as in [Enable the Agronomist level](enable-agronomist-level.md).
 
-3. Read the profile view, from the top:
-   - the name of the panel with the software version, in green, and **SN#** with the serial number;
-   - the line **“Speed”** with the way the speed sensor is connected: **“Control panel”**, **“Input device”** or **“Input device (2)”**;
-   - every kind of device in the profile with its number, or **“Yes”** for a device that exists only once, such as the work position sensor.
+4. Press **“BACK”**. The main menu returns, now with **“Service”**. Select **“Service”** and press **“MENU”**, then select **“Profile”** and press **“MENU”**. The profile menu opens.
 
-   **“UP”** and **“DOWN”** scroll the list when it is longer than the screen.
+   ![The way to the profile: Settings with the Service level, the main menu, the Service menu, the profile menu.](figures/menu-to-profile)
 
-4. Compare the list with the machine and the wiring diagram.
+5. Read the profile menu, from the top. Each item is one kind of device with the number the panel expects, for example **“Seed sensors”**; **“Speed”** shows how the speed sensor is connected: **“Control panel”**, **“Input device”** or **“Input device (2)”**. **“UP”** and **“DOWN”** go through the list, which is longer than the screen. All items: [The profile](profile.md).
 
-5. Wait until the hint **“BACK - exit”** appears at the bottom — the panel shows it once the devices have answered, or after 15 seconds at the latest. Press **“BACK”**. The home screen opens.
+   ![The profile menu.](figures/menu-profile)
+
+6. Compare the list with the machine and the wiring diagram. Change nothing here: **“BACK”** leaves the profile menu without saving.
+
+7. Go back to the **“Operator”** level: switch the panel off and on, as in [Enable the Agronomist level](enable-agronomist-level.md). At the **“Service”** level the panel shows no alarm windows, and the next check needs them.
 :::
 
 If the profile does not match the machine, set it up first: [Set up the profile](set-up-the-profile.md).

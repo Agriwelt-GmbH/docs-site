@@ -10,27 +10,28 @@ url: https://docs.agriwelt.com/fr/mini/check-profile-and-connections.html
 
 Le premier contrôle après l'installation d'un Hectare Mini — le profil correspond-il à la machine, chaque appareil répond-il, chaque capteur est-il sous surveillance — sous forme de procédure avec ce que l'écran affiche à chaque étape.
 
-Le boîtier ne surveille que les appareils que son **profil** énumère. Les systèmes sont en général livrés avec le profil déjà réglé, mais avant de régler le moindre paramètre, vérifiez qu'il correspond à la machine et que chaque appareil répond. Ce contrôle ne demande aucun code d'accès.
+Le boîtier ne surveille que les appareils que son **profil** énumère. Les systèmes sont en général livrés avec le profil déjà réglé, mais avant de régler le moindre paramètre, vérifiez qu'il correspond à la machine et que chaque appareil répond. Le contrôle du profil exige le niveau **« Service »** (service après-vente), qui demande un code PIN — le revendeur le fournit pour votre boîtier ; voir [Activer le niveau Agronomist](enable-agronomist-level.md). Les deux autres contrôles ne demandent aucun code.
 
 ## 1. Vérifier le profil {#check-the-profile}
 
 ::: steps
 1. Raccordez tous les appareils au boîtier et alimentez-les comme l'indique le schéma de câblage de la fiche technique du système.
 
-2. **Maintenez « UP » enfoncé** et allumez le boîtier. L'écran de démarrage apparaît, puis la vue du profil. Relâchez la touche.
+2. Allumez le boîtier. Après l'écran de démarrage, l'écran d'accueil apparaît.
 
-   ![La vue du profil affichée au démarrage.](figures/profile-view)
+3. Passez au niveau **« Service »** : **« MENU »** → **« Settings »** (réglages) → **« User »** (utilisateur) → **« Service »**, **« MENU »**, code PIN — comme dans [Activer le niveau Agronomist](enable-agronomist-level.md).
 
-3. Lisez la vue du profil, de haut en bas :
-   - le nom du boîtier avec la version du logiciel, en vert, et **SN#** avec le numéro de série ;
-   - la ligne **« Speed »** (vitesse) avec le mode de raccordement du capteur de vitesse : **« Control panel »** (boîtier de commande), **« Input device »** (module d'entrée) ou **« Input device (2) »** ;
-   - chaque type d'appareil du profil avec son nombre, ou **« Yes »** (oui) pour un appareil qui n'existe qu'une fois, comme le capteur de position de travail.
+4. Appuyez sur **« BACK »**. Le menu principal réapparaît, avec maintenant **« Service »**. Sélectionnez **« Service »** et appuyez sur **« MENU »**, puis sélectionnez **« Profile »** (profil) et appuyez sur **« MENU »**. Le menu du profil s'ouvre.
 
-   **« UP »** et **« DOWN »** font défiler la liste quand elle est plus longue que l'écran.
+   ![Le chemin vers le profil : Settings au niveau Service, le menu principal, le menu Service, le menu du profil.](figures/menu-to-profile)
 
-4. Comparez la liste avec la machine et le schéma de câblage.
+5. Lisez le menu du profil, de haut en bas. Chaque rubrique est un type d'appareil avec le nombre que le boîtier attend, par exemple **« Seed sensors »** (capteurs de graines) ; **« Speed »** (vitesse) indique le mode de raccordement du capteur de vitesse : **« Control panel »**, **« Input device »** ou **« Input device (2) »**. **« UP »** et **« DOWN »** parcourent la liste, plus longue que l'écran. Toutes les rubriques : [Le profil](profile.md).
 
-5. Attendez que l'indication **« BACK - exit »** (BACK - quitter) apparaisse en bas — le boîtier l'affiche dès que les appareils ont répondu, au plus tard après 15 secondes. Appuyez sur **« BACK »**. L'écran d'accueil s'ouvre.
+   ![Le menu du profil.](figures/menu-profile)
+
+6. Comparez la liste avec la machine et le schéma de câblage. Ne changez rien ici : **« BACK »** quitte le menu du profil sans enregistrer.
+
+7. Revenez au niveau **« Operator »** : éteignez puis rallumez le boîtier, comme dans [Activer le niveau Agronomist](enable-agronomist-level.md). Au niveau **« Service »**, le boîtier n'affiche aucune fenêtre d'alarme, et le contrôle suivant en a besoin.
 :::
 
 Si le profil ne correspond pas à la machine, réglez-le d'abord : [Régler le profil](set-up-the-profile.md).

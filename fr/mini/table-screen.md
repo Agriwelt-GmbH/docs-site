@@ -26,7 +26,7 @@ Les chiffres appartiennent à la **session de travail** : ils comptent depuis l
 7. **Population** du rang, en milliers de graines par hectare.
 8. **Moyennes** sur tous les rangs surveillés. Avec deux groupes de capteurs, deux lignes de ce genre, **A** et **B**.
 
-Le premier des quatre tableaux d'un semoir monograine de 12 rangs en mode « Precise » (précis), à l'arrêt.
+Le premier tableau d'un semoir monograine de 12 rangs en mode « Precise » (précis), à l'arrêt.
 :::
 
 Les colonnes 3 à 7 se rapportent au **dernier intervalle de recalcul terminé** — le tronçon réglé par **« Recalculation,m »** (recalcul, m) (ou **« Recalculation,sec »** (recalcul, s) sans capteur de vitesse), affiché en bas à droite. Seule la colonne 2 est un relevé en direct. Après l'arrêt de la machine, les chiffres du dernier intervalle restent à l'écran pour être lus à loisir. Une colonne supplémentaire, **%**, donne l'écart de chaque rang par rapport à la consigne, avec son signe ; positif signifie plus de graines et un écartement plus serré.
@@ -39,6 +39,16 @@ Les colonnes 3 à 7 se rapportent au **dernier intervalle de recalcul terminé**
 | **Seed counters** | Toujours. |
 | **Dry fertilizer** | Il y a des capteurs d'engrais et leur mode n'est pas **« Precise »**. |
 | **Liquid fertilizer** | Il y a des capteurs d'engrais liquide. |
+
+Un semoir monograine avec les semences en mode **« Precise »** et des capteurs d'engrais solide a quatre tableaux. **« PLUS »** passe au suivant, **« MINUS »** au précédent ; l'indicateur de page en haut à droite montre lequel est affiché.
+
+![Tableau 1 sur 4 — dose par surface : graines par mètre, qualité, doubles, manques et population de chaque rang.](figures/mini-table-view-1)
+
+![Tableau 2 sur 4 — dose par distance : les mêmes colonnes avec les graines par mètre à la place de la population.](figures/mini-table-view-2)
+
+![Tableau 3 sur 4 — compteurs de graines : graines comptées par rang et barre de l'écart.](figures/mini-table-view-3)
+
+![Tableau 4 sur 4 — engrais solide : le débit de chaque rang d'engrais et son écart.](figures/mini-table-view-4)
 
 Si les semences et l'engrais sont tous deux en mode **« Precise »**, les rangs d'engrais apparaissent dans les tableaux de semences comme groupe **B**, en caractères jaune clair.
 

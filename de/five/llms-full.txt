@@ -2472,7 +2472,7 @@ Der Bildschirm **Electric motors** (Elektromotoren) zeigt live, was ein Motorcon
 
 ::: {.anatomy fig="five-motors-registers"}
 1. **„Mode“** (Modus) — tippen Sie darauf, um die Seite zu wechseln: **„Registers“** (Register), dann **„Statistics“** (Statistik).
-2. **„Motor #“** mit einer Nummer — welcher Controller angezeigt wird (die Nummer ist im Bild weggelassen). Wischen Sie nach **rechts** für die nächste, nach **links** für die vorige Nummer.
+2. **„Motor #“** mit einer Nummer — welcher Motor angezeigt wird, hier Motor 1. Wischen Sie nach **rechts** für die nächste, nach **links** für die vorige Nummer.
 3. **„Registers“** — der Name der Seite. Ein Universalcontroller hat zwei Registerseiten, **„Registers-1“** und **„Registers-2“**.
 4. **Das Statuswort** — sechzehn Bits des Controllers; eine leuchtende (gelbe) Zelle ist ein gesetztes Bit.
 5. **Die Legende der Bits** — die Nummer und der Name jedes Bits. [Tabelle unten](#the-status-bits).

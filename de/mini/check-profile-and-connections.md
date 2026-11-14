@@ -10,27 +10,28 @@ url: https://docs.agriwelt.com/de/mini/check-profile-and-connections.html
 
 Die erste Prüfung nach dem Einbau eines Hectare Mini – stimmt das Profil mit der Maschine überein, antwortet jedes Gerät, wird jeder Sensor überwacht – als Ablauf mit dem, was der Bildschirm bei jedem Schritt zeigt.
 
-Das Panel überwacht nur die Geräte, die sein **Profil** aufführt. Meist werden Systeme mit bereits eingerichtetem Profil geliefert; prüfen Sie trotzdem, bevor Sie einen Parameter einstellen, ob es zur Maschine passt und ob jedes Gerät antwortet. Für diese Prüfung brauchen Sie keinen Zugangscode.
+Das Panel überwacht nur die Geräte, die sein **Profil** aufführt. Meist werden Systeme mit bereits eingerichtetem Profil geliefert; prüfen Sie trotzdem, bevor Sie einen Parameter einstellen, ob es zur Maschine passt und ob jedes Gerät antwortet. Die Prüfung des Profils erfordert die Ebene **„Service“**, die eine PIN verlangt – der Händler gibt sie für Ihr Panel heraus; siehe [Agronomen-Ebene aktivieren](enable-agronomist-level.md). Die beiden anderen Prüfungen brauchen keinen Code.
 
 ## 1. Profil prüfen {#check-the-profile}
 
 ::: steps
 1. Schließen Sie alle Geräte an das Panel an und versorgen Sie sie gemäß dem Schaltplan im Datenblatt des Systems mit Strom.
 
-2. **Halten Sie „UP“ gedrückt** und schalten Sie das Panel ein. Das Logo erscheint, danach die Profilansicht. Lassen Sie die Taste los.
+2. Schalten Sie das Panel ein. Nach dem Logo erscheint der Startbildschirm.
 
-   ![Die Profilansicht beim Start.](figures/profile-view)
+3. Heben Sie die Zugriffsebene auf **„Service“** an: **„MENU“** → **„Einstell.“** → **„Benutzer“** → **„Service“**, **„MENU“**, PIN – wie in [Agronomen-Ebene aktivieren](enable-agronomist-level.md).
 
-3. Lesen Sie die Profilansicht von oben:
-   - die Bezeichnung des Panels mit der Softwareversion, in Grün, und **SN#** mit der Seriennummer;
-   - die Zeile **„Geschw.“** mit der Anschlussart des Geschwindigkeitssensors: **„Bedienpanel“**, **„Eingangsmod.“** oder **„Eingangsmodul(2)“**;
-   - jede Geräteart im Profil mit ihrer Anzahl, oder **„Ja“** bei einem Gerät, das nur einmal vorkommt, etwa dem Arbeitsstellungssensor.
+4. Drücken Sie **„BACK“**. Das Hauptmenü kehrt zurück, nun mit **„Service“**. Wählen Sie **„Service“** und drücken Sie **„MENU“**, wählen Sie dann **„Profil“** und drücken Sie **„MENU“**. Das Profilmenü öffnet sich.
 
-   **„UP“** und **„DOWN“** scrollen die Liste, wenn sie länger ist als der Bildschirm.
+   ![Der Weg zum Profil: Einstellungen mit der Ebene Service, das Hauptmenü, das Service-Menü, das Profilmenü.](figures/menu-to-profile)
 
-4. Vergleichen Sie die Liste mit der Maschine und dem Schaltplan.
+5. Lesen Sie das Profilmenü von oben. Jeder Punkt ist eine Geräteart mit der Anzahl, die das Panel erwartet, zum Beispiel **„Kornsensoren“**; **„Geschw.“** zeigt, wie der Geschwindigkeitssensor angeschlossen ist: **„Bedienpanel“**, **„Eingangsmod.“** oder **„Eingangsmodul(2)“**. **„UP“** und **„DOWN“** gehen durch die Liste, die länger ist als der Bildschirm. Alle Punkte: [Das Profil](profile.md).
 
-5. Warten Sie, bis unten der Hinweis **„BACK - Ende“** erscheint – das Panel zeigt ihn, sobald die Geräte geantwortet haben, spätestens nach 15 Sekunden. Drücken Sie **„BACK“**. Der Startbildschirm öffnet sich.
+   ![Das Profilmenü.](figures/menu-profile)
+
+6. Vergleichen Sie die Liste mit der Maschine und dem Schaltplan. Ändern Sie hier nichts: **„BACK“** verlässt das Profilmenü ohne zu speichern.
+
+7. Gehen Sie zurück auf die Ebene **„Fahrer“**: Schalten Sie das Panel aus und wieder ein, wie in [Agronomen-Ebene aktivieren](enable-agronomist-level.md). Auf der Ebene **„Service“** zeigt das Panel keine Alarmfenster, und die nächste Prüfung braucht sie.
 :::
 
 Passt das Profil nicht zur Maschine, richten Sie es zuerst ein: [Profil einrichten](set-up-the-profile.md).

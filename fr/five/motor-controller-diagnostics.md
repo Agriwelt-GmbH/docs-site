@@ -14,7 +14,7 @@ L'écran **Electric motors** montre en direct ce qu'un contrôleur de moteur sig
 
 ::: {.anatomy fig="five-motors-registers"}
 1. **« Mode »** (mode) — touchez-le pour changer de page : **« Registers »** (registres), puis **« Statistics »** (statistiques).
-2. **« Motor # »** suivi d'un numéro — quel contrôleur est affiché (le numéro est omis sur l'image). Glissez vers la **droite** pour le numéro suivant, vers la **gauche** pour le précédent.
+2. **« Motor # »** suivi d'un numéro — quel moteur est affiché, ici le moteur 1. Glissez vers la **droite** pour le numéro suivant, vers la **gauche** pour le précédent.
 3. **« Registers »** — le nom de la page. Un contrôleur universel a deux pages de registres, **« Registers-1 »** et **« Registers-2 »**.
 4. **Le mot d'état** — seize bits du contrôleur ; une cellule allumée (jaune) est un bit positionné.
 5. **La légende des bits** — le numéro et le nom de chaque bit. [Tableau ci-dessous](#the-status-bits).

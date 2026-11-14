@@ -14,7 +14,7 @@ The **Electric motors** screen shows, live, what a motor controller reports abou
 
 ::: {.anatomy fig="five-motors-registers"}
 1. **“Mode”** — tap it to switch the page: **“Registers”**, then **“Statistics”**.
-2. **“Motor #”** with a number — which controller is shown (the number is left out of the picture). Swipe **right** for the next number, **left** for the previous one.
+2. **“Motor #”** with a number — which motor is shown, here motor 1. Swipe **right** for the next number, **left** for the previous one.
 3. **“Registers”** — the name of the page. A universal controller has two register pages, **“Registers-1”** and **“Registers-2”**.
 4. **The status word** — sixteen bits of the controller; a lit (yellow) cell is a bit that is set.
 5. **The legend of the bits** — the number and the name of each bit. [Table below](#the-status-bits).

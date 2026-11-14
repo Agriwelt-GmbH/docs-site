@@ -26,7 +26,7 @@ Die Zahlen gehören zur **Arbeitssitzung**: Sie zählen ab dem Einschalten und g
 7. **Aussaatdichte** der Reihe, in Tausend Körnern je Hektar.
 8. **Mittelwerte** über alle überwachten Reihen. Bei zwei Sensorgruppen zwei solche Zeilen, **A** und **B**.
 
-Die erste von vier Tabellen eines Zwölfreihen-Einzelkornsägeräts im Modus „Einzelkorn“, im Stillstand.
+Die erste Tabelle eines Zwölfreihen-Einzelkornsägeräts im Modus „Einzelkorn“, im Stillstand.
 :::
 
 Die Spalten 3 bis 7 gehören zum **zuletzt abgeschlossenen Neuberechnungsintervall** — der Wegstrecke, die **„Neuberechn.,m“** einstellt (oder **„Neuberechn.,Sek“** ohne Geschwindigkeitssensor), unten rechts angezeigt. Nur Spalte 2 ist ein Live-Wert. Nach dem Anhalten der Maschine bleiben die Werte des letzten Intervalls auf dem Bildschirm stehen, damit Sie sie in Ruhe ablesen können. Eine weitere Spalte, **%**, gibt die Abweichung jeder Reihe vom Sollwert an, mit Vorzeichen; positiv heißt mehr Körner und engerer Abstand.
@@ -39,6 +39,16 @@ Die Spalten 3 bis 7 gehören zum **zuletzt abgeschlossenen Neuberechnungsinterva
 | **Kornzähler** | Immer. |
 | **Trockendünger** | Es gibt Düngersensoren, und ihr Modus ist nicht **„Einzelkorn“**. |
 | **Flüssigdünger** | Es gibt Flüssigdüngersensoren. |
+
+Eine Einzelkornsämaschine mit Saatgut im Modus **„Einzelkorn“** und Trockendüngersensoren hat vier Tabellen. **„PLUS“** führt zur nächsten, **„MINUS“** zur vorigen; die Seitenanzeige oben rechts zeigt, in welcher Sie sind.
+
+![Tabelle 1 von 4 — Menge je Fläche: Körner je Meter, Qualität, Doppelstellen, Fehlstellen und die Aussaatdichte jeder Reihe.](figures/mini-table-view-1)
+
+![Tabelle 2 von 4 — Menge je Strecke: dieselben Spalten mit Körnern je Meter statt der Aussaatdichte.](figures/mini-table-view-2)
+
+![Tabelle 3 von 4 — Kornzähler: gezählte Körner je Reihe und der Balken der Abweichung.](figures/mini-table-view-3)
+
+![Tabelle 4 von 4 — Trockendünger: der Fluss jeder Düngerreihe und seine Abweichung.](figures/mini-table-view-4)
 
 Stehen Saatgut und Dünger beide auf **„Einzelkorn“**, erscheinen die Düngerreihen in den Saattabellen als Gruppe **B**, in hellgelber Schrift.
 
