@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" data-product="agrigate">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Set up the machine profile — Agrigate | Agriwelt Docs</title>
+<meta name="description" content="Tell the app how many seed rows and fertilizer sensors the machine has and, for Hybrid and Precision, its working width; the app writes the profile to the gateway by itself.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Agriwelt Docs">
+<meta property="og:title" content="Set up the machine profile — Agrigate | Agriwelt Docs">
+<meta property="og:description" content="Tell the app how many seed rows and fertilizer sensors the machine has and, for Hybrid and Precision, its working width; the app writes the profile to the gateway by itself.">
+<meta property="og:image" content="https://docs.agriwelt.com/assets/og/og-site.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="https://docs.agriwelt.com/en/agrigate/machine-profile.html">
+<link rel="canonical" href="https://docs.agriwelt.com/en/agrigate/machine-profile.html">
+<link rel="alternate" hreflang="en" href="https://docs.agriwelt.com/en/agrigate/machine-profile.html"><link rel="alternate" hreflang="de" href="https://docs.agriwelt.com/de/agrigate/machine-profile.html"><link rel="alternate" hreflang="fr" href="https://docs.agriwelt.com/fr/agrigate/machine-profile.html">
+<script>try{var t=localStorage.getItem('aw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/docs.css">
+</head>
+<body>
+<header class="top">
+ <button class="nav-btn" type="button" aria-label="Contents"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ <a class="brand" href="../../en/index.html"><span class="brand-a">AGRIWELT</span><span class="brand-d">Docs</span></a>
+ <a class="crumb" href="../../en/agrigate/index.html">Agrigate</a>
+ <div class="top-r">
+  <button class="search-btn" type="button" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Search</span><kbd>/</kbd></button>
+  <nav class="langs" aria-label="Language"><a href="../../en/agrigate/machine-profile.html" class="on" hreflang="en">EN</a><a href="../../de/agrigate/machine-profile.html" hreflang="de">DE</a><a href="../../fr/agrigate/machine-profile.html" hreflang="fr">FR</a></nav>
+  <button class="theme-btn" type="button" aria-label="Light / dark" title="Light / dark"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+ </div>
+</header>
+<div class="wrap"><aside class="side"><div class="side-in"><a class="side-home" href="../index.html">← All products</a><a class="side-prod" href="index.html">Agrigate</a><details><summary>Start here</summary><ul><li><a href="overview.html">What Agrigate is</a></li><li><a href="whats-in-the-kit.html">What is in the kit</a></li><li><a href="what-you-need.html">What you need</a></li><li><a href="how-it-connects.html">How the parts connect</a></li><li><a href="about-the-pictures.html">About the pictures</a></li></ul></details><details open><summary>Installation</summary><ul><li><a href="mount-and-connect.html">Mount and connect</a></li><li><a href="first-connection.html">First connection</a></li><li><a href="machine-profile.html" class="on" aria-current="page">Machine profile</a></li></ul></details><details><summary>The app</summary><ul><li><a href="app-navigation.html">The top bar and the pages</a></li><li><a href="rows-screen.html">Rows</a></li><li><a href="bar-colours.html">Bar colours</a></li><li><a href="row-menu.html">Row menu</a></li><li><a href="bottom-tiles.html">Tiles</a></li><li><a href="table-screen.html">Table</a></li><li><a href="statistics-screen.html">Statistics</a></li><li><a href="field-screen.html">Field</a></li><li><a href="machine-screen.html">Machine</a></li><li><a href="alarm-window.html">Alarm window</a></li><li><a href="screen-messages.html">Messages over the screen</a></li><li><a href="settings.html">Settings</a></li><li><a href="settings-products.html">Products</a></li><li><a href="settings-control-alarms.html">Control and Alarms</a></li><li><a href="settings-machine.html">Machine</a></li><li><a href="settings-app.html">App</a></li><li><a href="sensor-numbering.html">Sensor numbering</a></li><li><a href="tramline.html">Tramline</a></li><li><a href="hub8-inputs.html">HUB-8 inputs</a></li><li><a href="bridge-update.html">Gateway update</a></li><li><a href="built-in-help.html">Built-in help</a></li></ul></details><details><summary>Service codes</summary><ul><li><a href="codes.html">How service codes work</a></li><li><a href="codes-1-row-sensor.html">1xx · Row sensor</a></li><li><a href="codes-2-seeding.html">2xx · Seeding</a></li><li><a href="codes-3-machine-devices.html">3xx · Machine devices</a></li><li><a href="codes-4-tramline.html">4xx · Tramline</a></li><li><a href="codes-6-gateway-link.html">6xx · Gateway link</a></li><li><a href="codes-7-tablet.html">7xx · iPad and iPhone</a></li><li><a href="codes-8-gateway-update.html">8xx · Gateway update</a></li><li><a href="codes-9-setup.html">9xx · Setup</a></li></ul></details></div></aside><main><article class="doc"><div class="eyebrow">Installation</div><h1>Set up the machine profile</h1><div class="tags"><span class="tag tag-task">How to</span><span class="tag tag-draft">Pre-release</span></div><p class="lead">Tell the app how many seed rows and fertilizer sensors the machine has and, for Hybrid and Precision, its working width; the app writes the profile to the gateway by itself.</p><p>The machine profile tells the gateway which sensors to read and the app how to draw them: how many seed rows, how many fertilizer sensors, and for the Hybrid and Precision modes the working width. It is kept in the gateway, so another tablet connected to the same gateway reads the same profile.</p>
+<div class="steps">
+<ol type="1">
+<li><p>Open <strong>“Settings”</strong> › <strong>“Machine”</strong>. The section <strong>“Machine profile”</strong> opens at the top.</p></li>
+<li><p>Set <strong>“Rows”</strong> — the number of seed rows — with <strong>−</strong> / <strong>+</strong>.</p></li>
+<li><p>Set <strong>“Fertilizer sensors”</strong> — the number of fertilizer rows with a sensor, or <strong>“none”</strong>.</p></li>
+<li><p>Wait a moment. There is no Save button: after a short pause the app writes the profile to the gateway. The status line under the numbers says <strong>“writing the profile to the bridge…”</strong> and then <strong>“profile written to the bridge at”</strong> with the time.</p></li>
+<li><p>Compare <strong>“Sensors on the bus now”</strong> with what is on the seeder: it counts every device that answers on the sensor line.</p></li>
+<li><p><strong>Hybrid and Precision only:</strong> set <strong>“Width, cm”</strong> — the working width. <strong>“Row spacing”</strong> under it is worked out by the app: the width divided by the rows of the group.</p></li>
+</ol>
+</div>
+<h2 id="when-the-profile-is-not-written">When the profile is not written</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>The status line says</th>
+<th>What it means</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>“bridge busy: seeding under way”</strong></td>
+<td>The gateway does not take a new profile while seed flows.</td>
+<td>Stop the seeder and change the number again.</td>
+</tr>
+<tr>
+<td><strong>“too many rows for the bridge (up to”</strong> …</td>
+<td>The profile is larger than the gateway takes.</td>
+<td>Reduce rows or devices. See <a href="codes-9-setup.html#c902">code 902</a>.</td>
+</tr>
+<tr>
+<td>Any other message with a code</td>
+<td>The gateway refused the profile.</td>
+<td>See <a href="codes-9-setup.html">9xx · Setup answers of the gateway</a>.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="width-and-statistics">Width and statistics</h2>
+<p>The area and the row spacing come from the width. When the active field already has statistics, a new width asks first: <strong>“Statistics must be erased!”</strong> — <strong>“Yes”</strong> starts the statistics of the active field from zero, <strong>“No”</strong> keeps the old width.</p>
+<p>The fertilizer rows come after the seed rows. With fertilizer sensors in the profile, the rows screen shows two bands: seed on top, fertilizer below. See <a href="rows-screen.html">The rows screen</a>.</p>
+<aside class="co co-see"><div class="co-h">SEE ALSO</div>
+<p><a href="sensor-numbering.html">Number the sensors</a> · <a href="settings-machine.html">Settings — Machine</a></p>
+</aside>
+<nav class="pn"><a class="pn-p" href="first-connection.html"><small>Previous</small><span>First connection to the gateway</span></a><a class="pn-n" href="app-navigation.html"><small>Next</small><span>Moving around the app — the top bar and the page ring</span></a></nav><p class="help">Something your machine does that this page does not answer? Write to <a href="mailto:support@agriwelt.com">support@agriwelt.com</a> — an engineer answers.</p></article></main><aside class="toc"><div class="toc-in"><div class="toc-h">On this page</div><ul><li class="l2"><a href="#when-the-profile-is-not-written">When the profile is not written</a></li><li class="l2"><a href="#width-and-statistics">Width and statistics</a></li></ul></div></aside></div>
+<div class="search" hidden>
+ <div class="search-box" role="dialog" aria-label="Search">
+  <div class="search-in"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Search this manual…" autocomplete="off" spellcheck="false"><button type="button" class="search-x" aria-label="close">Esc</button></div>
+  <label class="search-all"><input type="checkbox"> Search all products</label>
+  <div class="search-res" data-empty="Nothing found. Try another word, or the name shown on the screen."></div>
+ </div>
+</div>
+<script>window.AW={root:"../../",lang:"en",product:"agrigate"};</script>
+<script src="../../assets/search-en.js" defer></script>
+<script src="../../assets/docs.js" defer></script>
+</body>
+</html>
