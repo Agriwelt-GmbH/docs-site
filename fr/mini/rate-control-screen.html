@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr" data-product="mini">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L&#x27;écran de régulation de dose — Hectare Mini | Agriwelt Docs</title>
+<meta name="description" content="L&#x27;écran des machines qui appliquent les produits à une dose — ce qu&#x27;il affiche, ses trois états, ses couleurs, et comment accéder à partir de là aux moteurs et à leur étalonnage.">
+<link rel="canonical" href="https://docs.agriwelt.com/fr/mini/rate-control-screen.html">
+<link rel="alternate" hreflang="en" href="https://docs.agriwelt.com/en/mini/rate-control-screen.html"><link rel="alternate" hreflang="de" href="https://docs.agriwelt.com/de/mini/rate-control-screen.html"><link rel="alternate" hreflang="fr" href="https://docs.agriwelt.com/fr/mini/rate-control-screen.html">
+<script>try{var t=localStorage.getItem('aw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/docs.css">
+</head>
+<body>
+<header class="top">
+ <button class="nav-btn" type="button" aria-label="Sommaire"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ <a class="brand" href="../../fr/index.html"><span class="brand-a">AGRIWELT</span><span class="brand-d">Docs</span></a>
+ <a class="crumb" href="../../fr/mini/index.html">Hectare Mini</a>
+ <div class="top-r">
+  <button class="search-btn" type="button" aria-label="Recherche"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Recherche</span><kbd>/</kbd></button>
+  <nav class="langs" aria-label="Language"><a href="../../en/mini/rate-control-screen.html" hreflang="en">EN</a><a href="../../de/mini/rate-control-screen.html" hreflang="de">DE</a><a href="../../fr/mini/rate-control-screen.html" class="on" hreflang="fr">FR</a></nav>
+  <button class="theme-btn" type="button" aria-label="Clair / sombre" title="Clair / sombre"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+ </div>
+</header>
+<div class="wrap"><aside class="side"><div class="side-in"><a class="side-home" href="../index.html">← Tous les produits</a><a class="side-prod" href="index.html">Hectare Mini</a><details><summary>Pour commencer</summary><ul><li><a href="overview.html">Ce que fait le système</a></li><li><a href="front-panel.html">Panneau et boutons</a></li><li><a href="switching-on.html">Mise en marche</a></li><li><a href="interface-basics.html">Bases de l&#x27;interface</a></li><li><a href="number-pad.html">Pavé numérique</a></li><li><a href="quick-start.html">Démarrage rapide</a></li><li><a href="commissioning.html">Mise en service</a></li><li><a href="about-the-pictures.html">À propos des images</a></li></ul></details><details open><summary>Les écrans</summary><ul><li><a href="home-screen.html">Écran d&#x27;accueil</a></li><li><a href="indicators.html">Indicateurs</a></li><li><a href="section-diagram.html">Diagramme des sections</a></li><li><a href="gps-receiver.html">Réception GPS</a></li><li><a href="table-screen.html">Tableau de semis</a></li><li><a href="statistics-screen.html">Statistiques</a></li><li><a href="rate-control-screen.html" class="on" aria-current="page">Écran de régulation de dose</a></li><li><a href="motors-screen.html">Écran Motors</a></li></ul></details><details><summary>Comment faire…</summary><ul><li><a href="set-the-target-rate.html">Modifier la dose de consigne</a></li><li><a href="set-the-alarm-level.html">Régler le seuil d&#x27;alarme</a></li><li><a href="lock-application-by-hand.html">Verrouiller l&#x27;application à la main</a></li><li><a href="sensor-in-and-out-of-control.html">Capteur sous et hors surveillance</a></li><li><a href="zero-the-readings.html">Remettre les relevés à zéro</a></li><li><a href="start-a-new-field.html">Commencer une nouvelle parcelle</a></li><li><a href="fill-the-disks.html">Remplir les disques</a></li><li><a href="assign-product-to-motor.html">Affecter un produit à un moteur</a></li><li><a href="calibrate-motor-weight.html">Étalonner un moteur au poids</a></li><li><a href="tramline-rhythm.html">Rythme de jalonnage</a></li><li><a href="next-tramline-bout.html">Passage de jalonnage suivant</a></li></ul></details><details><summary>Réglages</summary><ul><li><a href="access-levels.html">Niveaux d&#x27;accès</a></li><li><a href="enable-agronomist-level.html">Activer Agronomist</a></li><li><a href="check-profile-and-connections.html">Vérifier profil et connexions</a></li><li><a href="profile.html">Profil</a></li><li><a href="set-up-the-profile.html">Régler le profil</a></li><li><a href="settings-menu.html">Menu Settings</a></li><li><a href="set-date-and-time.html">Date et heure</a></li><li><a href="seeding-machine-parameters.html">Paramètres du semoir</a></li><li><a href="sensor-settings.html">Réglages des capteurs</a></li><li><a href="sensor-status-screen.html">Écran d&#x27;état</a></li><li><a href="speed-sensor.html">Capteur de vitesse</a></li><li><a href="calibrate-speed.html">Étalonner la vitesse</a></li><li><a href="seed-and-fertilizer-sensors.html">Capteurs de graines et d&#x27;engrais</a></li><li><a href="recalculation-path.html">Longueur de recalcul</a></li><li><a href="dispenser-sensor.html">Capteur de doseur</a></li><li><a href="calibrate-dispenser-rotation.html">Étalonner la rotation du doseur</a></li><li><a href="calibrate-dispenser-weight.html">Étalonner le doseur au poids</a></li><li><a href="fan-sensor.html">Capteur de turbine</a></li><li><a href="pressure-sensor.html">Capteur de pression</a></li><li><a href="hopper-and-work-position-sensors.html">Trémie et position de travail</a></li><li><a href="engine-sensors.html">Capteurs du moteur</a></li><li><a href="marker-sensors.html">Capteurs de traceur</a></li><li><a href="device-configuration.html">Configuration des appareils</a></li><li><a href="configure-seed-sensor.html">Capteur de graines</a></li><li><a href="configure-pressure-sensor.html">Capteur de pression</a></li><li><a href="configure-hub8.html">HUB-8</a></li></ul></details><details><summary>Alarmes et dépannage</summary><ul><li><a href="how-alarms-work.html">Fonctionnement des alarmes</a></li><li><a href="alarms-any-device.html">L&#x27;appareil ne répond pas</a></li><li><a href="alarms-speed-sensor.html">Capteur de vitesse</a></li><li><a href="alarms-seeding.html">Semis</a></li><li><a href="alarms-sensor-state.html">État du capteur de graines</a></li><li><a href="alarms-rotation.html">Vitesse turbine et doseur</a></li><li><a href="alarms-hopper.html">Trémie</a></li><li><a href="alarms-pressure.html">Pression</a></li><li><a href="alarms-engine.html">Moteur</a></li><li><a href="alarms-dosing-by-weight.html">Dosage au poids</a></li><li><a href="alarms-access-level.html">User is Agronomist</a></li><li><a href="alarms-tramline.html">Jalonnage</a></li><li><a href="alarms-electric-motors.html">Moteurs de doseur</a></li></ul></details><details><summary>Référence</summary><ul><li><a href="motor-context-menu.html">Menu contextuel d&#x27;un moteur</a></li><li><a href="buttons-and-gestures.html">Boutons et touchers</a></li><li><a href="terms.html">Termes</a></li></ul></details></div></aside><main><article class="doc"><div class="eyebrow">Les écrans</div><h1>L&#x27;écran de régulation de dose</h1><div class="tags"><span class="tag tag-concept">Comprendre</span><span class="tag tag-fw">Hectare Mini firmware · 2.2.8</span></div><p class="lead">L&#x27;écran des machines qui appliquent les produits à une dose — ce qu&#x27;il affiche, ses trois états, ses couleurs, et comment accéder à partir de là aux moteurs et à leur étalonnage.</p><p>Sur l'écran de régulation de dose, vous réglez les doses de consigne des semences, de l'engrais solide, de l'engrais liquide et des produits appliqués au poids, et vous suivez la dose réellement appliquée. Il montre aussi la surface, la vitesse, les trémies, les turbines et la position de l'outil. C'est le dernier écran de travail : <strong>« HOME »</strong> depuis l'écran Statistics (ou l'écran Motors) vous y amène, et un nouvel appui sur <strong>« HOME »</strong> ramène à l'écran d'accueil. <strong>« BACK »</strong> ne quitte pas cet écran.</p>
+<p>C'est le seul écran dont le panneau se souvienne après l'arrêt : s'il était ouvert, il s'ouvre de nouveau à la mise sous tension suivante.</p>
+<h2 id="what-the-screen-shows">Ce que montre l'écran</h2>
+<figure class="anatomy"><div class="an-stage" style="padding:7.895% 7.895% 2.632% 7.895%"><div class="an-pic scr scr-320"><img src="../../assets/fig/mini/mini-rate-screen-en.png" alt="L&#x27;écran de régulation de dose d&#x27;un semoir avec un produit appliqué au poids, à l&#x27;arrêt." width="320" height="240"></div><svg class="an-svg" viewBox="-30 -30 380 280" aria-hidden="true"><line class="an-l0" data-n="1" x1="-15" y1="18" x2="12" y2="18"/><line class="an-l" data-n="1" x1="-15" y1="18" x2="12" y2="18"/><circle class="an-t" data-n="1" cx="12" cy="18" r="1.4"/><line class="an-l0" data-n="2" x1="100" y1="-14" x2="100" y2="18"/><line class="an-l" data-n="2" x1="100" y1="-14" x2="100" y2="18"/><circle class="an-t" data-n="2" cx="100" cy="18" r="1.4"/><line class="an-l0" data-n="3" x1="337" y1="15" x2="312" y2="15"/><line class="an-l" data-n="3" x1="337" y1="15" x2="312" y2="15"/><circle class="an-t" data-n="3" cx="312" cy="15" r="1.4"/><line class="an-l0" data-n="4" x1="337" y1="105" x2="181" y2="105"/><line class="an-l" data-n="4" x1="337" y1="105" x2="181" y2="105"/><circle class="an-t" data-n="4" cx="181" cy="105" r="1.4"/><line class="an-l0" data-n="5" x1="337" y1="152" x2="199" y2="152"/><line class="an-l" data-n="5" x1="337" y1="152" x2="199" y2="152"/><circle class="an-t" data-n="5" cx="199" cy="152" r="1.4"/><line class="an-l0" data-n="6" x1="-15" y1="222" x2="12" y2="222"/><line class="an-l" data-n="6" x1="-15" y1="222" x2="12" y2="222"/><circle class="an-t" data-n="6" cx="12" cy="222" r="1.4"/><line class="an-l0" data-n="7" x1="337" y1="225" x2="182" y2="225"/><line class="an-l" data-n="7" x1="337" y1="225" x2="182" y2="225"/><circle class="an-t" data-n="7" cx="182" cy="225" r="1.4"/><g class="an-b" data-n="1"><circle cx="-15" cy="18" r="8.3"/><text x="-15" y="18" font-size="9.3">1</text></g><g class="an-b" data-n="2"><circle cx="100" cy="-14" r="8.3"/><text x="100" y="-14" font-size="9.3">2</text></g><g class="an-b" data-n="3"><circle cx="337" cy="15" r="8.3"/><text x="337" y="15" font-size="9.3">3</text></g><g class="an-b" data-n="4"><circle cx="337" cy="105" r="8.3"/><text x="337" y="105" font-size="9.3">4</text></g><g class="an-b" data-n="5"><circle cx="337" cy="152" r="8.3"/><text x="337" y="152" font-size="9.3">5</text></g><g class="an-b" data-n="6"><circle cx="-15" cy="222" r="8.3"/><text x="-15" y="222" font-size="9.3">6</text></g><g class="an-b" data-n="7"><circle cx="337" cy="225" r="8.3"/><text x="337" y="225" font-size="9.3">7</text></g></svg></div>
+<ol class="an-legend">
+<li><strong>Surface</strong> travaillée sur la parcelle active, en <strong>ha</strong>. Seulement avec un capteur de vitesse.</li>
+<li><strong>Vitesse d'avancement</strong>, en km/h, avec les mêmes messages que sur l'écran d'accueil — voir <a href="indicators.html#speed">Vitesse</a>. Seulement avec un capteur de vitesse.</li>
+<li><strong>Symbole des réglages.</strong> Touchez-le et maintenez pour ouvrir le menu principal.</li>
+<li><strong>Indicateur de produit</strong> — ici le produit 1, en kg/ha. Un pour chaque produit dont au moins un doseur sous surveillance l'applique au poids.</li>
+<li><strong>Dose.</strong> La dose réellement appliquée ; tant que l'indicateur est sélectionné, la consigne.</li>
+<li><strong>Pause du travail</strong> — la main. Gris foncé : au travail ; jaune clignotant : application verrouillée — voir <a href="lock-application-by-hand.html">Verrouiller l'application à la main</a>.</li>
+<li><strong>Trémie</strong>, une pour chaque trémie.</li>
+</ol>
+<figcaption>L'écran de régulation de dose d'un semoir avec un produit appliqué au poids, à l'arrêt.</figcaption></figure>
+<p>Selon la machine, d'autres indicateurs apparaissent : la dose de consigne d'engrais liquide en L/ha, la dose de semences et d'engrais solide en mode <strong>« Precise »</strong> (précis), un indicateur de turbine pour chaque turbine, et la position de l'outil en bas à droite. S'il n'y a pas de place pour toutes les turbines et trémies, le panneau supprime d'abord une turbine, puis des trémies ; l'écran d'accueil les montre toujours toutes.</p>
+<h2 id="three-states">Trois états</h2>
+<ul>
+<li><strong>Observation</strong> — rien n'est sélectionné. Les indicateurs montrent les doses réellement appliquées.</li>
+<li><strong>Modification de dose</strong> — <strong>« PLUS »</strong> ou <strong>« MINUS »</strong>. Les indicateurs de dose peuvent être sélectionnés ; voir <a href="set-the-target-rate.html">Modifier la dose de consigne</a>.</li>
+<li><strong>Réglage des capteurs</strong> — maintenez <strong>« MENU »</strong>. Le symbole des réglages, la vitesse, les turbines, les trémies et la position de l'outil peuvent être sélectionnés ; <strong>« PLUS »</strong> et <strong>« MINUS »</strong> mettent le capteur sélectionné sous ou hors surveillance, <strong>« MENU »</strong> ouvre son menu contextuel — ou, sur le symbole des réglages, le menu principal.</li>
+</ul>
+<p>Dans les deux modes, <strong>« UP »</strong> et <strong>« DOWN »</strong> déplacent la sélection, <strong>« BACK »</strong> quitte le mode, et <strong>« HOME »</strong> maintenu verrouille ou déverrouille l'application.</p>
+<h2 id="colours-of-a-rate-indicator">Couleurs d'un indicateur de dose</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Ce que vous voyez</strong></th>
+<th><strong>Signification</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Symbole et unité verts, valeur blanche</td>
+<td>En ordre ; la valeur est la dose appliquée.</td>
+</tr>
+<tr>
+<td>Symbole, unité et valeur rouges clignotants</td>
+<td>La dose appliquée s'écarte de la consigne plus que permis.</td>
+</tr>
+<tr>
+<td>Fond bleu-vert foncé, symbole bleu clair, valeur jaune</td>
+<td>Sélectionné ; la valeur est la consigne.</td>
+</tr>
+<tr>
+<td><strong>!!!!</strong>, <strong>XXXX</strong> ou <strong>????</strong> rouges clignotants (engrais liquide seulement)</td>
+<td>Hors surveillance / pas de liaison / un appareil de mauvais type.</td>
+</tr>
+</tbody>
+</table></div>
+<p>En mode <strong>« Precise »</strong>, les indicateurs de semences et d'engrais affichent la population en <strong>ks/Ha</strong> tant qu'ils ne sont pas sélectionnés, et la consigne en <strong>s/m</strong> lorsqu'ils le sont.</p>
+<p>La dose d'un produit est moyennée sur chaque tronçon de 10 m parcouru. Elle compte comme déviante lorsqu'elle s'écarte de plus de <strong>« Product rate error,% »</strong> (erreur de dose du produit, %) : l'alarme se déclenche après deux tronçons de ce genre d'affilée et s'efface après deux bons tronçons. À l'arrêt, avec l'application verrouillée ou sans doseur sous surveillance, l'indicateur affiche 0,00 et l'alarme est effacée.</p>
+<h2 id="to-the-motors-and-their-calibration">Vers les moteurs et leur étalonnage</h2>
+<p>Touchez et maintenez un indicateur de produit — ou sélectionnez-le à l'état de modification de dose et appuyez sur <strong>« MENU »</strong>. Une liste des moteurs de ce produit s'ouvre (<strong>« Motor »</strong> (moteur) ou <strong>« Fert.mot. »</strong> (moteur d'engrais) avec le numéro). Sélectionnez un moteur et appuyez sur <strong>« MENU »</strong> : <strong>« Calibration, product »</strong> (étalonnage, produit), <strong>« Weight, gr »</strong> (poids, g) et <strong>« Rotations »</strong> (rotations). Comment étalonner : <a href="calibrate-motor-weight.html">Étalonner un moteur au poids</a>.</p>
+<p>La liste n'existe que pour les produits dont les moteurs fonctionnent en <strong>« Flow »</strong> (débit) ou <strong>« Hybrid »</strong> (hybride). Si la machine avance, le panneau refuse : la vitesse doit être nulle pour un étalonnage. Un toucher maintenu sur l'indicateur d'engrais liquide ouvre le menu contextuel de la pompe.</p>
+<nav class="pn"><a class="pn-p" href="statistics-screen.html"><small>Précédent</small><span>L&#x27;écran Statistics</span></a><a class="pn-n" href="motors-screen.html"><small>Suivant</small><span>L&#x27;écran Motors</span></a></nav><p class="help">Votre machine fait quelque chose que cette page n&#x27;explique pas ? Écrivez à <a href="mailto:support@agriwelt.com">support@agriwelt.com</a> — un ingénieur vous répond.</p></article></main><aside class="toc"><div class="toc-in"><div class="toc-h">Sur cette page</div><ul><li class="l2"><a href="#what-the-screen-shows">Ce que montre l&#x27;écran</a></li><li class="l2"><a href="#three-states">Trois états</a></li><li class="l2"><a href="#colours-of-a-rate-indicator">Couleurs d&#x27;un indicateur de dose</a></li><li class="l2"><a href="#to-the-motors-and-their-calibration">Vers les moteurs et leur étalonnage</a></li></ul></div></aside></div>
+<div class="search" hidden>
+ <div class="search-box" role="dialog" aria-label="Recherche">
+  <div class="search-in"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Rechercher dans ce manuel…" autocomplete="off" spellcheck="false"><button type="button" class="search-x" aria-label="close">Esc</button></div>
+  <label class="search-all"><input type="checkbox"> Rechercher dans tous les produits</label>
+  <div class="search-res" data-empty="Aucun résultat. Essayez un autre mot, ou le libellé affiché à l&#x27;écran."></div>
+ </div>
+</div>
+<script>window.AW={root:"../../",lang:"fr",product:"mini"};</script>
+<script src="../../assets/search-fr.js" defer></script>
+<script src="../../assets/docs.js" defer></script>
+</body>
+</html>

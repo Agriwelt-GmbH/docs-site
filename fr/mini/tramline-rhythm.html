@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr" data-product="mini">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Régler le rythme de jalonnage — Hectare Mini | Agriwelt Docs</title>
+<meta name="description" content="Indiquer au Hectare Mini à quels passages quel actionneur ou moteur coupe — les limites, l&#x27;éditeur de rythme, ses fenêtres, et l&#x27;ordre qui évite d&#x27;écraser votre rythme.">
+<link rel="canonical" href="https://docs.agriwelt.com/fr/mini/tramline-rhythm.html">
+<link rel="alternate" hreflang="en" href="https://docs.agriwelt.com/en/mini/tramline-rhythm.html"><link rel="alternate" hreflang="de" href="https://docs.agriwelt.com/de/mini/tramline-rhythm.html"><link rel="alternate" hreflang="fr" href="https://docs.agriwelt.com/fr/mini/tramline-rhythm.html">
+<script>try{var t=localStorage.getItem('aw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/docs.css">
+</head>
+<body>
+<header class="top">
+ <button class="nav-btn" type="button" aria-label="Sommaire"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ <a class="brand" href="../../fr/index.html"><span class="brand-a">AGRIWELT</span><span class="brand-d">Docs</span></a>
+ <a class="crumb" href="../../fr/mini/index.html">Hectare Mini</a>
+ <div class="top-r">
+  <button class="search-btn" type="button" aria-label="Recherche"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Recherche</span><kbd>/</kbd></button>
+  <nav class="langs" aria-label="Language"><a href="../../en/mini/tramline-rhythm.html" hreflang="en">EN</a><a href="../../de/mini/tramline-rhythm.html" hreflang="de">DE</a><a href="../../fr/mini/tramline-rhythm.html" class="on" hreflang="fr">FR</a></nav>
+  <button class="theme-btn" type="button" aria-label="Clair / sombre" title="Clair / sombre"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+ </div>
+</header>
+<div class="wrap"><aside class="side"><div class="side-in"><a class="side-home" href="../index.html">← Tous les produits</a><a class="side-prod" href="index.html">Hectare Mini</a><details><summary>Pour commencer</summary><ul><li><a href="overview.html">Ce que fait le système</a></li><li><a href="front-panel.html">Panneau et boutons</a></li><li><a href="switching-on.html">Mise en marche</a></li><li><a href="interface-basics.html">Bases de l&#x27;interface</a></li><li><a href="number-pad.html">Pavé numérique</a></li><li><a href="quick-start.html">Démarrage rapide</a></li><li><a href="commissioning.html">Mise en service</a></li><li><a href="about-the-pictures.html">À propos des images</a></li></ul></details><details><summary>Les écrans</summary><ul><li><a href="home-screen.html">Écran d&#x27;accueil</a></li><li><a href="indicators.html">Indicateurs</a></li><li><a href="section-diagram.html">Diagramme des sections</a></li><li><a href="gps-receiver.html">Réception GPS</a></li><li><a href="table-screen.html">Tableau de semis</a></li><li><a href="statistics-screen.html">Statistiques</a></li><li><a href="rate-control-screen.html">Écran de régulation de dose</a></li><li><a href="motors-screen.html">Écran Motors</a></li></ul></details><details open><summary>Comment faire…</summary><ul><li><a href="set-the-target-rate.html">Modifier la dose de consigne</a></li><li><a href="set-the-alarm-level.html">Régler le seuil d&#x27;alarme</a></li><li><a href="lock-application-by-hand.html">Verrouiller l&#x27;application à la main</a></li><li><a href="sensor-in-and-out-of-control.html">Capteur sous et hors surveillance</a></li><li><a href="zero-the-readings.html">Remettre les relevés à zéro</a></li><li><a href="start-a-new-field.html">Commencer une nouvelle parcelle</a></li><li><a href="fill-the-disks.html">Remplir les disques</a></li><li><a href="assign-product-to-motor.html">Affecter un produit à un moteur</a></li><li><a href="calibrate-motor-weight.html">Étalonner un moteur au poids</a></li><li><a href="tramline-rhythm.html" class="on" aria-current="page">Rythme de jalonnage</a></li><li><a href="next-tramline-bout.html">Passage de jalonnage suivant</a></li></ul></details><details><summary>Réglages</summary><ul><li><a href="access-levels.html">Niveaux d&#x27;accès</a></li><li><a href="enable-agronomist-level.html">Activer Agronomist</a></li><li><a href="check-profile-and-connections.html">Vérifier profil et connexions</a></li><li><a href="profile.html">Profil</a></li><li><a href="set-up-the-profile.html">Régler le profil</a></li><li><a href="settings-menu.html">Menu Settings</a></li><li><a href="set-date-and-time.html">Date et heure</a></li><li><a href="seeding-machine-parameters.html">Paramètres du semoir</a></li><li><a href="sensor-settings.html">Réglages des capteurs</a></li><li><a href="sensor-status-screen.html">Écran d&#x27;état</a></li><li><a href="speed-sensor.html">Capteur de vitesse</a></li><li><a href="calibrate-speed.html">Étalonner la vitesse</a></li><li><a href="seed-and-fertilizer-sensors.html">Capteurs de graines et d&#x27;engrais</a></li><li><a href="recalculation-path.html">Longueur de recalcul</a></li><li><a href="dispenser-sensor.html">Capteur de doseur</a></li><li><a href="calibrate-dispenser-rotation.html">Étalonner la rotation du doseur</a></li><li><a href="calibrate-dispenser-weight.html">Étalonner le doseur au poids</a></li><li><a href="fan-sensor.html">Capteur de turbine</a></li><li><a href="pressure-sensor.html">Capteur de pression</a></li><li><a href="hopper-and-work-position-sensors.html">Trémie et position de travail</a></li><li><a href="engine-sensors.html">Capteurs du moteur</a></li><li><a href="marker-sensors.html">Capteurs de traceur</a></li><li><a href="device-configuration.html">Configuration des appareils</a></li><li><a href="configure-seed-sensor.html">Capteur de graines</a></li><li><a href="configure-pressure-sensor.html">Capteur de pression</a></li><li><a href="configure-hub8.html">HUB-8</a></li></ul></details><details><summary>Alarmes et dépannage</summary><ul><li><a href="how-alarms-work.html">Fonctionnement des alarmes</a></li><li><a href="alarms-any-device.html">L&#x27;appareil ne répond pas</a></li><li><a href="alarms-speed-sensor.html">Capteur de vitesse</a></li><li><a href="alarms-seeding.html">Semis</a></li><li><a href="alarms-sensor-state.html">État du capteur de graines</a></li><li><a href="alarms-rotation.html">Vitesse turbine et doseur</a></li><li><a href="alarms-hopper.html">Trémie</a></li><li><a href="alarms-pressure.html">Pression</a></li><li><a href="alarms-engine.html">Moteur</a></li><li><a href="alarms-dosing-by-weight.html">Dosage au poids</a></li><li><a href="alarms-access-level.html">User is Agronomist</a></li><li><a href="alarms-tramline.html">Jalonnage</a></li><li><a href="alarms-electric-motors.html">Moteurs de doseur</a></li></ul></details><details><summary>Référence</summary><ul><li><a href="motor-context-menu.html">Menu contextuel d&#x27;un moteur</a></li><li><a href="buttons-and-gestures.html">Boutons et touchers</a></li><li><a href="terms.html">Termes</a></li></ul></details></div></aside><main><article class="doc"><div class="eyebrow">Comment faire…</div><h1>Régler le rythme de jalonnage</h1><div class="tags"><span class="tag tag-task">Comment faire</span><span class="tag tag-fw">Hectare Mini firmware · 2.2.8</span></div><p class="lead">Indiquer au Hectare Mini à quels passages quel actionneur ou moteur coupe — les limites, l&#x27;éditeur de rythme, ses fenêtres, et l&#x27;ordre qui évite d&#x27;écraser votre rythme.</p><p>Un <strong>jalonnage</strong> est la voie dans laquelle le pulvérisateur passera plus tard. Vous le créez en semant : le panneau coupe des rangs de semences ou des moteurs à certains <strong>passages</strong> — les passes à travers la parcelle. Il compte les passes et repart au premier après le dernier. Le nombre de passages et la liste de l'appareil qui coupe à quel passage forment le <strong>rythme</strong>. Exemple : quatre passages, l'actionneur 1 coupant au passage 4 — une passe sur quatre laisse un jalonnage.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Limite</strong></th>
+<th><strong>Valeur</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rythmes mémorisés</td>
+<td><strong>Trois</strong>, un seul actif à la fois. Conservez les schémas des machines avec lesquelles vous travaillez.</td>
+</tr>
+<tr>
+<td>Passages dans un rythme</td>
+<td><strong>1 à 50</strong>.</td>
+</tr>
+<tr>
+<td>Actionneurs de jalonnage</td>
+<td><strong>Quatre</strong> au plus ; l'élément de profil <strong>« Tramline actuators »</strong> (actionneurs de jalonnage) en fixe le nombre.</td>
+</tr>
+<tr>
+<td>Passages de coupure par appareil</td>
+<td><strong>Quatre</strong>.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Le panneau n'en sait pas davantage : il n'existe pas de réglage pour un côté de départ ni pour la largeur du jalonnage. Les rangs de semences qu'un actionneur coupe physiquement se règlent dans <strong>« Relation of sensors to actuators »</strong> (relation des capteurs aux actionneurs) (<a href="settings-menu.html">Menu Settings</a>) ; sans cela, le panneau compte les passages mais ne coupe rien.</p>
+<aside class="co co-important"><div class="co-h">IMPORTANT</div>
+<p><strong>Réglez d'abord le profil, le jalonnage ensuite.</strong> L'enregistrement d'un profil reprend tout son jeu de réglages, y compris les trois rythmes — un rythme réglé avant est perdu. Et vérifiez le nombre de passages d'après le pulvérisateur, pas le semoir : un rythme erroné a l'air parfait jusqu'à ce que le pulvérisateur n'ait nulle part où passer.</p>
+</aside>
+<p>L'élément <strong>« Tramline »</strong> (jalonnage) n'existe que si la machine a un actionneur de jalonnage, ou autant de moteurs de semences que de capteurs de graines, ou autant de moteurs d'engrais que de capteurs d'engrais. Le réglage demande le niveau Agronomist (<a href="enable-agronomist-level.html">Activer le niveau Agronomist</a>).</p>
+<div class="steps">
+<ol type="1">
+<li><p>Appuyez sur <strong>« MENU »</strong>, puis ouvrez <strong>« Settings »</strong> (réglages) → <strong>« Seeding machine parameters »</strong> (paramètres du semoir) → <strong>« Tramline »</strong>. Réglez <strong>« Tramline »</strong> sur <strong>« Yes »</strong> (oui) avec <strong>« PLUS »</strong>.</p>
+<figure>
+<img src="../../assets/fig/mini/mini-tramline-menu-en.png" alt="Le sous-menu Tramline." width="320" height="240" class="scr scr-320" loading="lazy">
+<figcaption>Le sous-menu Tramline.</figcaption>
+</figure></li>
+<li><p>Sélectionnez <strong>« Tramline rhythm settings »</strong> (réglages du rythme de jalonnage) et appuyez sur <strong>« MENU »</strong>. L'éditeur de rythme s'ouvre.</p></li>
+<li><p>Choisissez le numéro du rythme avec <strong>« PLUS »</strong> / <strong>« MINUS »</strong>, appuyez sur <strong>« MENU »</strong> et choisissez <strong>« Select »</strong> (sélectionner). <strong>(« Active »)</strong> (actif) apparaît à côté du numéro. Sans cela, le rythme est enregistré mais pas utilisé.</p></li>
+<li><p>Appuyez sur <strong>« DOWN »</strong> jusqu'au nombre de passages, appuyez sur <strong>« MENU »</strong>, réglez <strong>« Bouts »</strong> (passages) avec <strong>« PLUS »</strong> / <strong>« MINUS »</strong> et validez avec <strong>« MENU »</strong>.</p></li>
+<li><p>Appuyez sur <strong>« DOWN »</strong> jusqu'à la ligne vide d'une section et appuyez sur <strong>« MENU »</strong>. Réglez le numéro de l'appareil et le <strong>« Bout »</strong> (passage) auquel il coupe ; validez avec <strong>« MENU »</strong>.</p></li>
+<li><p>Pour d'autres passages de coupure du même appareil, appuyez sur <strong>« PLUS »</strong> jusqu'à la cellule portant le signe <strong>« MENU »</strong> en fin de ligne et appuyez sur <strong>« MENU »</strong> — jusqu'à quatre.</p></li>
+<li><p>Appuyez sur <strong>« BACK »</strong>, ou maintenez <strong>« HOME »</strong>. Le rythme est enregistré.</p></li>
+</ol>
+</div>
+<h2 id="the-rhythm-editor">L'éditeur de rythme</h2>
+<figure>
+<img src="../../assets/fig/mini/mini-tramline-rhythm-form-en.png" alt="L&#39;éditeur de rythme avec un nouveau rythme : un passage, rien de coupé pour l&#39;instant." width="320" height="240" class="scr scr-320" loading="lazy">
+<figcaption>L'éditeur de rythme avec un nouveau rythme : un passage, rien de coupé pour l'instant.</figcaption>
+</figure>
+<p>Lisez-le de haut en bas : <strong>« Rhythm »</strong> (rythme) avec son numéro entre des flèches et <strong>(Active)</strong> s'il est utilisé ; en dessous, le nombre de passages dans une case ; puis jusqu'à trois sections — <strong>« Tramline actuators activation »</strong> (activation des actionneurs de jalonnage), <strong>« Tramline motors activation »</strong> (activation des moteurs de jalonnage), <strong>« Tramline fert. motors activation »</strong> (activation des moteurs d'engrais de jalonnage) (avec les deux modes <strong>« Precise »</strong> (précis) : <strong>« Tramline motors gr.A activation »</strong> et <strong>« Tramline motors gr.B activation »</strong>). Chaque ligne nomme un appareil — <strong>« Actuator »</strong> (actionneur), <strong>« Motor »</strong> (moteur), <strong>« Fert.mot. »</strong> (moteur d'engrais) — et les passages auxquels il coupe ; une cellule portant le signe <strong>« MENU »</strong> ajoute un passage ou une ligne. Une cellule sélectionnée est blanche sur bleu.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Bouton</strong></th>
+<th><strong>Ce qu'il fait</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>« UP »</strong> / <strong>« DOWN »</strong></td>
+<td>Une ligne vers le haut ou le bas, à travers les sections.</td>
+</tr>
+<tr>
+<td><strong>« PLUS »</strong> / <strong>« MINUS »</strong></td>
+<td>Sur le numéro du rythme : rythme suivant / précédent. Dans une ligne : une cellule vers la droite / la gauche. Sur le nombre de passages : rien — ouvrez-le avec <strong>« MENU »</strong>.</td>
+</tr>
+<tr>
+<td><strong>« MENU »</strong></td>
+<td>Ouvre la fenêtre de la cellule sélectionnée.</td>
+</tr>
+<tr>
+<td><strong>« BACK »</strong></td>
+<td>Enregistre et revient au menu <strong>« Tramline »</strong>.</td>
+</tr>
+<tr>
+<td><strong>« HOME »</strong> maintenu</td>
+<td>Enregistre et revient à l'écran d'accueil. Un appui court ne fait rien ici.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="the-dialogs">Les fenêtres</h2>
+<ul>
+<li><strong>Numéro du rythme :</strong> <strong>« Select »</strong> en fait celui qui est utilisé ; <strong>« Reset rhythm settings »</strong> (réinitialiser les réglages du rythme) supprime ses lignes et ramène ses passages à 1.</li>
+<li><strong>Nombre de passages :</strong> le diminuer supprime les entrées des passages qui disparaissent ; une ligne laissée sans passage disparaît. Si le passage courant était supérieur au nouveau nombre, le comptage repart à 1.</li>
+<li><strong>Ligne d'un appareil :</strong> le numéro de l'appareil et <strong>« Remove »</strong> (supprimer). Les numéros déjà utilisés dans la section sont sautés — lisez la valeur, ne comptez pas les appuis.</li>
+<li><strong>Passage d'une ligne :</strong> <strong>« Bout »</strong>, <strong>« Remove bout »</strong> (supprimer le passage) et <strong>« Remove all bouts »</strong> (supprimer tous les passages). Les passages déjà présents dans la ligne sont sautés. Si tous les passages sont déjà saisis, <strong>« Unused bouts are not found! »</strong> (aucun passage inutilisé) apparaît à la place ; n'importe quel bouton la ferme.</li>
+</ul>
+<aside class="co co-caution"><div class="co-h">ATTENTION</div>
+<p><strong>Les éléments de suppression se trouvent juste sous la valeur.</strong> Un seul <strong>« DOWN »</strong> de trop et un <strong>« MENU »</strong> suppriment la ligne sur laquelle vous travaillez. <strong>« Reset rhythm settings »</strong> annule aussi les modifications non enregistrées des deux autres rythmes et un <strong>« Select »</strong> non enregistré.</p>
+</aside>
+<h2 id="what-is-stored-where">Ce qui est enregistré où</h2>
+<p>Les trois rythmes, le nombre de passages, le passage courant, <strong>« Tramline »</strong> et <strong>« Auto-switching »</strong> (commutation automatique) font partie des réglages du panneau et sont enregistrés d'eux-mêmes peu après le dernier toucher. Le profil ne contient que le nombre d'appareils ; à l'ouverture, l'éditeur efface les lignes pour lesquelles le profil n'a pas d'appareil. Avec <strong>« Tramline »</strong> sur <strong>« No »</strong>, tous les actionneurs et moteurs reviennent au semis.</p>
+<p>Le travail dans la parcelle : <a href="next-tramline-bout.html">Passage de jalonnage suivant</a>.</p>
+<nav class="pn"><a class="pn-p" href="calibrate-motor-weight.html"><small>Précédent</small><span>Étalonner un moteur de doseur au poids</span></a><a class="pn-n" href="next-tramline-bout.html"><small>Suivant</small><span>Le jalonnage dans la parcelle — indicateur de passage et passage suivant</span></a></nav><p class="help">Votre machine fait quelque chose que cette page n&#x27;explique pas ? Écrivez à <a href="mailto:support@agriwelt.com">support@agriwelt.com</a> — un ingénieur vous répond.</p></article></main><aside class="toc"><div class="toc-in"><div class="toc-h">Sur cette page</div><ul><li class="l2"><a href="#the-rhythm-editor">L&#x27;éditeur de rythme</a></li><li class="l2"><a href="#the-dialogs">Les fenêtres</a></li><li class="l2"><a href="#what-is-stored-where">Ce qui est enregistré où</a></li></ul></div></aside></div>
+<div class="search" hidden>
+ <div class="search-box" role="dialog" aria-label="Recherche">
+  <div class="search-in"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Rechercher dans ce manuel…" autocomplete="off" spellcheck="false"><button type="button" class="search-x" aria-label="close">Esc</button></div>
+  <label class="search-all"><input type="checkbox"> Rechercher dans tous les produits</label>
+  <div class="search-res" data-empty="Aucun résultat. Essayez un autre mot, ou le libellé affiché à l&#x27;écran."></div>
+ </div>
+</div>
+<script>window.AW={root:"../../",lang:"fr",product:"mini"};</script>
+<script src="../../assets/search-fr.js" defer></script>
+<script src="../../assets/docs.js" defer></script>
+</body>
+</html>

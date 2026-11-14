@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="de" data-product="five">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sämaschinen-Parameter — Hectare 5 | Agriwelt Docs</title>
+<meta name="description" content="Die Arbeitsbreite, die Modi für Aussaat und Düngung, die Fahrgasse, die Zuordnung von Sektionen zu Aktuatoren und Motoren und die beiden Kalibrierungen, bei denen die Maschine fahren muss.">
+<link rel="canonical" href="https://docs.agriwelt.com/de/five/seeding-machine-parameters.html">
+<link rel="alternate" hreflang="en" href="https://docs.agriwelt.com/en/five/seeding-machine-parameters.html"><link rel="alternate" hreflang="de" href="https://docs.agriwelt.com/de/five/seeding-machine-parameters.html"><link rel="alternate" hreflang="fr" href="https://docs.agriwelt.com/fr/five/seeding-machine-parameters.html">
+<script>try{var t=localStorage.getItem('aw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/docs.css">
+</head>
+<body>
+<header class="top">
+ <button class="nav-btn" type="button" aria-label="Inhalt"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ <a class="brand" href="../../de/index.html"><span class="brand-a">AGRIWELT</span><span class="brand-d">Docs</span></a>
+ <a class="crumb" href="../../de/five/index.html">Hectare 5</a>
+ <div class="top-r">
+  <button class="search-btn" type="button" aria-label="Suche"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Suche</span><kbd>/</kbd></button>
+  <nav class="langs" aria-label="Language"><a href="../../en/five/seeding-machine-parameters.html" hreflang="en">EN</a><a href="../../de/five/seeding-machine-parameters.html" class="on" hreflang="de">DE</a><a href="../../fr/five/seeding-machine-parameters.html" hreflang="fr">FR</a></nav>
+  <button class="theme-btn" type="button" aria-label="Hell / dunkel" title="Hell / dunkel"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+ </div>
+</header>
+<div class="wrap"><aside class="side"><div class="side-in"><a class="side-home" href="../index.html">← Alle Produkte</a><a class="side-prod" href="index.html">Hectare 5</a><details><summary>Erste Schritte</summary><ul><li><a href="overview.html">Was das System leistet</a></li><li><a href="front-panel.html">Das Panel</a></li><li><a href="switching-on.html">Einschalten</a></li><li><a href="interface-basics.html">Bedienung im Überblick</a></li><li><a href="quick-start.html">Schnellstart</a></li><li><a href="about-the-pictures.html">Zu den Bildern</a></li></ul></details><details><summary>Die Bildschirme</summary><ul><li><a href="home-screen.html">Startbildschirm</a></li><li><a href="section-diagram.html">Sektionsdiagramm</a></li><li><a href="section-states.html">Säulenfarben und Zustände</a></li><li><a href="indicators.html">Anzeigen</a></li><li><a href="gps.html">GPS</a></li><li><a href="second-home-screen.html">Der zweite Startbildschirm</a></li><li><a href="working-screens.html">Arbeitsbildschirme</a></li><li><a href="table-screen.html">Der Tabellenbildschirm</a></li><li><a href="statistics-screen.html">Der Statistikbildschirm</a></li><li><a href="motors-screen.html">Der Motorenbildschirm</a></li></ul></details><details><summary>So geht&#x27;s</summary><ul><li><a href="set-the-target-rate.html">Sollmenge ändern</a></li><li><a href="lock-application-by-hand.html">Ausbringung von Hand sperren</a></li><li><a href="set-the-alarm-level.html">Alarmschwelle einstellen</a></li><li><a href="sensor-in-and-out-of-control.html">Sensor in die Überwachung nehmen oder herausnehmen</a></li><li><a href="zero-the-readings.html">Messwerte nullen</a></li><li><a href="fill-the-disks.html">Scheiben füllen</a></li><li><a href="tramline-rhythm.html">Fahrgassenrhythmus</a></li><li><a href="screen-brightness.html">Bildschirmhelligkeit</a></li><li><a href="work-without-speed-sensor.html">Ohne Geschwindigkeitssensor arbeiten</a></li></ul></details><details open><summary>Einrichten</summary><ul><li><a href="access-levels.html">Zugriffsebenen</a></li><li><a href="enable-agronomist-level.html">Agronom freischalten</a></li><li><a href="profile.html">Das Profil</a></li><li><a href="save-and-load-settings.html">Einstellungen speichern und laden</a></li><li><a href="settings-menu.html">Menü Settings</a></li><li><a href="seeding-machine-parameters.html" class="on" aria-current="page">Sämaschinen-Parameter</a></li><li><a href="sensor-settings.html">Sensoreinstellungen</a></li><li><a href="sensor-status-screen.html">Statusbildschirm</a></li><li><a href="speed-sensor.html">Geschwindigkeitssensor</a></li><li><a href="calibrate-speed.html">Geschwindigkeit kalibrieren</a></li><li><a href="seed-and-fertilizer-sensors.html">Korn- und Düngersensoren</a></li><li><a href="liquid-fertilizer.html">Flüssigdünger</a></li><li><a href="dispenser-sensor.html">Dosierersensor</a></li><li><a href="calibrate-dispenser-rotation.html">Dosierer-Drehung kalibrieren</a></li><li><a href="calibrate-dispenser-weight.html">Dosierer nach Gewicht kalibrieren</a></li><li><a href="dispenser-motor.html">Dosierermotor</a></li><li><a href="calibrate-motor-weight.html">Motor nach Gewicht kalibrieren</a></li><li><a href="fan-sensor.html">Gebläsesensor</a></li><li><a href="pressure-sensor.html">Drucksensor</a></li><li><a href="marker-sensors.html">Spuranzeigersensoren</a></li><li><a href="hopper-position-engine-sensors.html">Behälter, Stellung, Motor</a></li><li><a href="tramline-actuator.html">Fahrgassen-Aktuator</a></li><li><a href="device-configuration.html">Gerätekonfiguration</a></li><li><a href="configure-seed-sensor.html">Kornsensor</a></li><li><a href="configure-pressure-sensor.html">Drucksensor</a></li><li><a href="configure-hub8.html">HUB8</a></li><li><a href="configure-tramline-actuator.html">Fahrgassen-Aktuator</a></li><li><a href="configure-motor-controllers.html">Motorcontroller</a></li><li><a href="motor-controller-diagnostics.html">Motordiagnose</a></li><li><a href="service-menu.html">Menü Service</a></li></ul></details><details><summary>Alarme und Fehlersuche</summary><ul><li><a href="how-alarms-work.html">So arbeiten Alarme</a></li><li><a href="alarms-any-device.html">Verbindung verloren, falsches Gerät</a></li><li><a href="alarms-rotation.html">Drehzahl Gebläse und Dosierer</a></li><li><a href="alarms-hopper.html">Behälter leer</a></li><li><a href="alarms-pressure.html">Luftdruck</a></li><li><a href="alarms-rate.html">Mengenalarme</a></li><li><a href="alarms-seeding-quality.html">Doppelbelegungen und Fehlstellen</a></li><li><a href="alarms-tramline.html">Fahrgassenalarme</a></li><li><a href="alarms-sensor-state.html">Sensor verstopft oder defekt</a></li><li><a href="alarms-tractor.html">Motoralarme</a></li><li><a href="alarms-dosing-by-weight.html">Dosierung nach Gewicht</a></li><li><a href="alarms-access-level.html">Warnung Agronomenebene</a></li><li><a href="alarms-speed-sensor.html">Alarme des Geschwindigkeitssensors</a></li><li><a href="alarms-motor-controller.html">Alarme der Dosiermotoren</a></li><li><a href="alarms-pump-controller.html">Flüssigdüngerpumpe</a></li><li><a href="motor-fault-codes.html">Motor-Fehlercodes</a></li></ul></details><details><summary>Nachschlagen</summary><ul><li><a href="buttons-and-gestures.html">Touchzonen und Gesten</a></li><li><a href="terms.html">Begriffe</a></li></ul></details></div></aside><main><article class="doc"><div class="eyebrow">Einrichten</div><h1>Sämaschinen-Parameter</h1><div class="tags"><span class="tag tag-reference">Nachschlagen</span><span class="tag tag-fw">Hectare 5 firmware · 1.0.20</span><span class="tag tag-draft">Entwurf</span></div><p class="lead">Die Arbeitsbreite, die Modi für Aussaat und Düngung, die Fahrgasse, die Zuordnung von Sektionen zu Aktuatoren und Motoren und die beiden Kalibrierungen, bei denen die Maschine fahren muss.</p><p><strong>„Settings“</strong> (Einstellungen) → <strong>„Seeding machine parameters“</strong> (Sämaschinen-Parameter). Der Punkt braucht die Ebene <strong>„Agronomist“</strong> (Agronom) (<a href="enable-agronomist-level.html">Agronomenebene freischalten</a>) und ist an einer Maschine ohne Geschwindigkeitssensor und ohne Fahrgassen-Aktuator verborgen. Welche Punkte er enthält, hängt vom Profil ab.</p>
+<figure>
+<img src="../../assets/fig/five/five-param-edit-en.png" alt="Das Menü Seeding machine parameters einer Einzelkornsämaschine: die Breite in eckigen Klammern, die zwei Modi, die zwei Kalibrierungen." width="800" height="480" class="scr scr-800" loading="lazy">
+<figcaption>Das Menü Seeding machine parameters einer Einzelkornsämaschine: die Breite in eckigen Klammern, die zwei Modi, die zwei Kalibrierungen.</figcaption>
+</figure>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Punkt</strong></th>
+<th><strong>Werte</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>„Width, cm“</strong> (Breite, cm)</td>
+<td>100 … 2500; Standard 560. Zahlenfeld.</td>
+</tr>
+<tr>
+<td><strong>„Mode of seeding“</strong> (Modus der Aussaat)</td>
+<td><strong>„Flow“</strong> (Durchfluss) / <strong>„Hybrid“</strong> (Hybrid) / <strong>„Precise“</strong> (Einzelkorn); Standard <strong>„Flow“</strong>.</td>
+</tr>
+<tr>
+<td><strong>„Mode of fertilizers“</strong> (Modus der Düngung)</td>
+<td><strong>„Flow“</strong> / <strong>„Hybrid“</strong> / <strong>„Precise“</strong>.</td>
+</tr>
+<tr>
+<td><strong>„Mode of liq.fert.“</strong> (Modus Flüssigdünger)</td>
+<td><strong>„Flow“</strong> / <strong>„By area“</strong> (nach Fläche).</td>
+</tr>
+<tr>
+<td><strong>„Tramline“</strong> (Fahrgasse)</td>
+<td>Untermenü.</td>
+</tr>
+<tr>
+<td><strong>„Relation of sensors to actuators“</strong> (Zuordnung der Sensoren zu den Aktuatoren)</td>
+<td>Öffnet den Zuordnungsbildschirm.</td>
+</tr>
+<tr>
+<td><strong>„Speed calibration“</strong> (Geschwindigkeitskalibrierung)</td>
+<td>Startet die Geschwindigkeitskalibrierung.</td>
+</tr>
+<tr>
+<td><strong>„Dispenser calibration“</strong> (Dosiererkalibrierung)</td>
+<td><strong>„ALL“</strong> (alle) oder die Nummer eines Dosierers; startet die Drehungskalibrierung.</td>
+</tr>
+<tr>
+<td><strong>„Reset to defaults“</strong> (Auf Standard zurücksetzen)</td>
+<td>Setzt Breite und Modi auf die Werkswerte zurück. Nur Ebene <strong>Service</strong>.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="width-cm">Width, cm</h2>
+<p>Die Arbeitsbreite des Geräts. Die bearbeitete Fläche wird daraus berechnet, deshalb muss sie eingegeben werden. Tippen Sie den Punkt zweimal an oder wischen Sie darauf: Das Zahlenfeld öffnet sich. Geben Sie die Breite ein und tippen Sie auf <strong>„OK“</strong>; ein Tippen neben das Feld behält den alten Wert. Ohne Geschwindigkeitssensor ist der Punkt verborgen.</p>
+<p>Enthält die Statistik schon Arbeit, verlangt das Panel zuerst, sie zu löschen — die Fläche der alten und der neuen Breite lassen sich nicht addieren.</p>
+<h2 id="mode-of-seeding-mode-of-fertilizers">Mode of seeding, Mode of fertilizers</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Modus</strong></th>
+<th><strong>Einheit</strong></th>
+<th><strong>Für</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>„Flow“</strong></td>
+<td>Körner je Sekunde</td>
+<td>Drillmaschinen</td>
+</tr>
+<tr>
+<td><strong>„Hybrid“</strong></td>
+<td>Körner je Meter</td>
+<td>Drillmaschinen</td>
+</tr>
+<tr>
+<td><strong>„Precise“</strong></td>
+<td>Körner je Meter, mit gezählten Fehlstellen und Doppelbelegungen</td>
+<td>Einzelkornsägeräte</td>
+</tr>
+</tbody>
+</table></div>
+<p>Der Dünger lässt sich nur auf <strong>„Precise“</strong> stellen, solange die Aussaat <strong>„Precise“</strong> ist. An einer Maschine mit zwei Gruppen von Kornsensoren heißen die beiden Punkte <strong>„Mode of seeding gr.A“</strong> und <strong>„Mode of seeding gr.B“</strong> (Modus der Aussaat Gruppe A und B); Gruppe B kann nur <strong>„Precise“</strong> sein, solange Gruppe A es ist. Stellen Sie also Gruppe B auf <strong>„Flow“</strong> oder <strong>„Hybrid“</strong>, bevor Sie Gruppe A aus <strong>„Precise“</strong> nehmen.</p>
+<aside class="co co-important"><div class="co-h">WICHTIG</div>
+<p><strong>Das Umschalten zwischen „Precise“ und den beiden anderen Modi verlangt das Zurücksetzen der Statistik</strong>, wenn auf irgendeinem Schlag Arbeit gespeichert ist. Das Panel fragt zuerst; <strong>„No“</strong> (Nein) behält den alten Modus.</p>
+</aside>
+<h2 id="liquid-fertilizer-mode">Liquid fertilizer mode</h2>
+<p><strong>„Flow“</strong> (Liter je Minute) oder <strong>„By area“</strong> (Liter je Hektar). <strong>Wird nur angezeigt, wenn im Profil kein Flüssigdünger-Pumpencontroller steht</strong> — mit einem Controller arbeitet das Panel nach Fläche.</p>
+<h2 id="relation-of-sensors-to-actuators">Relation of sensors to actuators</h2>
+<p>Welche Sektionssensoren zu welchem Fahrgassen-Aktuator oder Dosierermotor gehören. Schaltet ein Aktuator seine Sektionen ab, wechseln deren Sensoren in die Fahrgassenüberwachung. Der Punkt wird nur angezeigt, wo es etwas zuzuordnen gibt: Fahrgassen-Aktuatoren oder Dosierermotoren, die nicht eins zu eins zu den Sektionssensoren gehören.</p>
+<figure>
+<img src="../../assets/fig/five/five-mapping-en.png" alt="Der Zuordnungsbildschirm: eine Zeile für die Aktuatoren, eine für die Motoren." width="800" height="480" class="scr scr-800" loading="lazy">
+<figcaption>Der Zuordnungsbildschirm: eine Zeile für die Aktuatoren, eine für die Motoren.</figcaption>
+</figure>
+<p>Eine Zuordnung ist ein <strong>Bereich</strong> von Sektionen, <strong>„Diapason start“</strong> (Bereichsanfang) bis <strong>„Diapason end“</strong> (Bereichsende) — gleiche Zahlen bedeuten eine einzelne Sektion. Bis zu <strong>vier Bereiche</strong> lassen sich einem Aktuator zuordnen. An einer Maschine mit Dosierermotoren hat der Bildschirm außerdem <strong>„Motors to sensors mapping“</strong> (Zuordnung der Motoren zu den Sensoren).</p>
+<p>Auf dem Bildschirm wechselt ein Wisch nach oben oder unten zwischen den Zeilen, ein Wisch nach rechts oder links bewegt sich entlang einer Zeile, und ein <strong>Zweifingertippen</strong> öffnet das Menü der gewählten Zelle — um einen Bereich hinzuzufügen oder <strong>„Remove diapason“</strong> (Bereich entfernen). <strong>Berühren und halten</strong> Sie irgendwo auf dem Bildschirm, um die Zuordnung zu übernehmen.</p>
+<h2 id="tramline">Tramline</h2>
+<p>Ein Untermenü mit zwei Punkten: <strong>„Tramline“</strong> (<strong>„No“</strong> / <strong>„Yes“</strong>) und <strong>„Tramline rhythm settings“</strong> (Einstellungen des Fahrgassenrhythmus). Wird nur an einer Maschine angezeigt, die Fahrgassen anlegen kann. Einen Rhythmus einstellen: <a href="tramline-rhythm.html">Fahrgassenrhythmus einstellen</a>.</p>
+<h2 id="speed-calibration-and-dispenser-calibration">Speed calibration and Dispenser calibration</h2>
+<p>Die beiden Kalibrierungen, bei denen die Maschine fahren muss. Beide sind ohne Geschwindigkeitssensor verborgen. Wählen Sie <strong>„Dispenser calibration“</strong> und wischen Sie nach rechts oder links, um den Dosierer zu wählen — oder <strong>„ALL“</strong> für alle auf einmal —, dann tippen Sie noch einmal darauf, um zu starten.</p>
+<ul>
+<li><a href="calibrate-speed.html">Geschwindigkeitssensor kalibrieren</a></li>
+<li><a href="calibrate-dispenser-rotation.html">Dosierer-Drehung kalibrieren</a></li>
+</ul>
+<nav class="pn"><a class="pn-p" href="settings-menu.html"><small>Zurück</small><span>Das Menü Settings</span></a><a class="pn-n" href="sensor-settings.html"><small>Weiter</small><span>Sensoreinstellungen</span></a></nav><p class="help">Ihre Maschine tut etwas, das diese Seite nicht beantwortet? Schreiben Sie an <a href="mailto:support@agriwelt.com">support@agriwelt.com</a> — es antwortet ein Ingenieur.</p></article></main><aside class="toc"><div class="toc-in"><div class="toc-h">Auf dieser Seite</div><ul><li class="l2"><a href="#width-cm">Width, cm</a></li><li class="l2"><a href="#mode-of-seeding-mode-of-fertilizers">Mode of seeding, Mode of fertilizers</a></li><li class="l2"><a href="#liquid-fertilizer-mode">Liquid fertilizer mode</a></li><li class="l2"><a href="#relation-of-sensors-to-actuators">Relation of sensors to actuators</a></li><li class="l2"><a href="#tramline">Tramline</a></li><li class="l2"><a href="#speed-calibration-and-dispenser-calibration">Speed calibration and Dispenser calibration</a></li></ul></div></aside></div>
+<div class="search" hidden>
+ <div class="search-box" role="dialog" aria-label="Suche">
+  <div class="search-in"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="In dieser Anleitung suchen…" autocomplete="off" spellcheck="false"><button type="button" class="search-x" aria-label="close">Esc</button></div>
+  <label class="search-all"><input type="checkbox"> Alle Produkte durchsuchen</label>
+  <div class="search-res" data-empty="Nichts gefunden. Versuchen Sie ein anderes Wort oder die Bezeichnung vom Bildschirm."></div>
+ </div>
+</div>
+<script>window.AW={root:"../../",lang:"de",product:"five"};</script>
+<script src="../../assets/search-de.js" defer></script>
+<script src="../../assets/docs.js" defer></script>
+</body>
+</html>

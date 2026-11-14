@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 40" width="672" height="120">
+<rect x="0" y="0" width="224" height="40" rx="6" fill="#111"/>
+<g transform="translate(4,8) scale(1)" fill="none" stroke="#F29A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 3l9 8"/><path d="M6 10v10h12V10"/></g>
+<g transform="translate(36,8) scale(1)" fill="none" stroke="#F29A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" stroke-width="2.4"/></g>
+<g transform="translate(68,8) scale(1)" fill="none" stroke="#F29A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V5"/><path d="m5 12 7-7 7 7"/></g>
+<g transform="translate(100,8) scale(1)" fill="none" stroke="#F29A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="4.5" width="15" height="15" rx="3.5"/></g>
+<g transform="translate(132,8) scale(1)" fill="none" stroke="#F29A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15"/><path d="m5 12 7 7 7-7"/></g>
+<g transform="translate(164,8) scale(1)" fill="none" stroke="#F29A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14" stroke-width="2.4"/><path d="M5 12h14" stroke-width="2.4"/></g>
+<g transform="translate(196,8) scale(1)" fill="none" stroke="#F29A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6v5a4 4 0 0 1-4 4H5"/><path d="m9 11-4 4 4 4"/></g>
+</svg>

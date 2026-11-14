@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr" data-product="five">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capteurs de graines et capteurs d&#x27;engrais solide — Hectare 5 | Agriwelt Docs</title>
+<meta name="description" content="Les paramètres communs à un groupe de capteurs optiques de graines ou d&#x27;engrais solide — fraction, sensibilité, écart de dose, manques et doubles, pourcentage de semis, tolérance de jalonnage — et le commutateur par capteur de l&#x27;application du produit.">
+<link rel="canonical" href="https://docs.agriwelt.com/fr/five/seed-and-fertilizer-sensors.html">
+<link rel="alternate" hreflang="en" href="https://docs.agriwelt.com/en/five/seed-and-fertilizer-sensors.html"><link rel="alternate" hreflang="de" href="https://docs.agriwelt.com/de/five/seed-and-fertilizer-sensors.html"><link rel="alternate" hreflang="fr" href="https://docs.agriwelt.com/fr/five/seed-and-fertilizer-sensors.html">
+<script>try{var t=localStorage.getItem('aw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/docs.css">
+</head>
+<body>
+<header class="top">
+ <button class="nav-btn" type="button" aria-label="Sommaire"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ <a class="brand" href="../../fr/index.html"><span class="brand-a">AGRIWELT</span><span class="brand-d">Docs</span></a>
+ <a class="crumb" href="../../fr/five/index.html">Hectare 5</a>
+ <div class="top-r">
+  <button class="search-btn" type="button" aria-label="Recherche"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Recherche</span><kbd>/</kbd></button>
+  <nav class="langs" aria-label="Language"><a href="../../en/five/seed-and-fertilizer-sensors.html" hreflang="en">EN</a><a href="../../de/five/seed-and-fertilizer-sensors.html" hreflang="de">DE</a><a href="../../fr/five/seed-and-fertilizer-sensors.html" class="on" hreflang="fr">FR</a></nav>
+  <button class="theme-btn" type="button" aria-label="Clair / sombre" title="Clair / sombre"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+ </div>
+</header>
+<div class="wrap"><aside class="side"><div class="side-in"><a class="side-home" href="../index.html">← Tous les produits</a><a class="side-prod" href="index.html">Hectare 5</a><details><summary>Pour commencer</summary><ul><li><a href="overview.html">Ce que fait le système</a></li><li><a href="front-panel.html">Le panneau</a></li><li><a href="switching-on.html">Mise sous tension</a></li><li><a href="interface-basics.html">Bases de l&#x27;interface</a></li><li><a href="quick-start.html">Démarrage rapide</a></li><li><a href="about-the-pictures.html">À propos des images</a></li></ul></details><details><summary>Les écrans</summary><ul><li><a href="home-screen.html">Écran d&#x27;accueil</a></li><li><a href="section-diagram.html">Diagramme des sections</a></li><li><a href="section-states.html">Couleurs des colonnes et états</a></li><li><a href="indicators.html">Indicateurs</a></li><li><a href="gps.html">GPS</a></li><li><a href="second-home-screen.html">Le second écran d&#x27;accueil</a></li><li><a href="working-screens.html">Écrans de travail</a></li><li><a href="table-screen.html">L&#x27;écran Table</a></li><li><a href="statistics-screen.html">L&#x27;écran Statistics</a></li><li><a href="motors-screen.html">L&#x27;écran Motors</a></li></ul></details><details><summary>Comment faire…</summary><ul><li><a href="set-the-target-rate.html">Modifier la dose de consigne</a></li><li><a href="lock-application-by-hand.html">Verrouiller l&#x27;application à la main</a></li><li><a href="set-the-alarm-level.html">Régler le seuil d&#x27;alarme</a></li><li><a href="sensor-in-and-out-of-control.html">Mettre un capteur sous ou hors surveillance</a></li><li><a href="zero-the-readings.html">Remettre les mesures à zéro</a></li><li><a href="fill-the-disks.html">Remplir les disques</a></li><li><a href="tramline-rhythm.html">Rythme de jalonnage</a></li><li><a href="screen-brightness.html">Luminosité de l&#x27;écran</a></li><li><a href="work-without-speed-sensor.html">Travailler sans capteur de vitesse</a></li></ul></details><details open><summary>Réglages</summary><ul><li><a href="access-levels.html">Niveaux d&#x27;accès</a></li><li><a href="enable-agronomist-level.html">Activer Agronomist</a></li><li><a href="profile.html">Le profil</a></li><li><a href="save-and-load-settings.html">Enregistrer et charger les réglages</a></li><li><a href="settings-menu.html">Menu Settings</a></li><li><a href="seeding-machine-parameters.html">Paramètres du semoir</a></li><li><a href="sensor-settings.html">Réglages des capteurs</a></li><li><a href="sensor-status-screen.html">Écran d&#x27;état</a></li><li><a href="speed-sensor.html">Capteur de vitesse</a></li><li><a href="calibrate-speed.html">Étalonner la vitesse</a></li><li><a href="seed-and-fertilizer-sensors.html" class="on" aria-current="page">Capteurs de graines et d&#x27;engrais</a></li><li><a href="liquid-fertilizer.html">Engrais liquide</a></li><li><a href="dispenser-sensor.html">Capteur de doseur</a></li><li><a href="calibrate-dispenser-rotation.html">Étalonner la rotation du doseur</a></li><li><a href="calibrate-dispenser-weight.html">Étalonner le doseur au poids</a></li><li><a href="dispenser-motor.html">Moteur de doseur</a></li><li><a href="calibrate-motor-weight.html">Étalonner un moteur au poids</a></li><li><a href="fan-sensor.html">Capteur de turbine</a></li><li><a href="pressure-sensor.html">Capteur de pression</a></li><li><a href="marker-sensors.html">Capteurs de traceurs</a></li><li><a href="hopper-position-engine-sensors.html">Trémie, position, moteur</a></li><li><a href="tramline-actuator.html">Actionneur de jalonnage</a></li><li><a href="device-configuration.html">Configuration des appareils</a></li><li><a href="configure-seed-sensor.html">Capteur de graines</a></li><li><a href="configure-pressure-sensor.html">Capteur de pression</a></li><li><a href="configure-hub8.html">HUB8</a></li><li><a href="configure-tramline-actuator.html">Actionneur de jalonnage</a></li><li><a href="configure-motor-controllers.html">Contrôleurs de moteurs</a></li><li><a href="motor-controller-diagnostics.html">Diagnostic des moteurs</a></li><li><a href="service-menu.html">Menu Service</a></li></ul></details><details><summary>Alarmes et dépannage</summary><ul><li><a href="how-alarms-work.html">Fonctionnement des alarmes</a></li><li><a href="alarms-any-device.html">Connexion perdue, mauvais appareil</a></li><li><a href="alarms-rotation.html">Vitesse de la turbine et du doseur</a></li><li><a href="alarms-hopper.html">Trémie vide</a></li><li><a href="alarms-pressure.html">Pression d&#x27;air</a></li><li><a href="alarms-rate.html">Alarmes de dose</a></li><li><a href="alarms-seeding-quality.html">Doubles et manques</a></li><li><a href="alarms-tramline.html">Alarmes de jalonnage</a></li><li><a href="alarms-sensor-state.html">Capteur obstrué ou cassé</a></li><li><a href="alarms-tractor.html">Alarmes du moteur</a></li><li><a href="alarms-dosing-by-weight.html">Dosage au poids</a></li><li><a href="alarms-access-level.html">Avertissement niveau Agronomist</a></li><li><a href="alarms-speed-sensor.html">Alarmes du capteur de vitesse</a></li><li><a href="alarms-motor-controller.html">Alarmes des moteurs de dosage</a></li><li><a href="alarms-pump-controller.html">Pompe d&#x27;engrais liquide</a></li><li><a href="motor-fault-codes.html">Codes de défaut des moteurs</a></li></ul></details><details><summary>Référence</summary><ul><li><a href="buttons-and-gestures.html">Zones tactiles et gestes</a></li><li><a href="terms.html">Termes</a></li></ul></details></div></aside><main><article class="doc"><div class="eyebrow">Réglages</div><h1>Capteurs de graines et capteurs d&#x27;engrais solide</h1><div class="tags"><span class="tag tag-reference">Référence</span><span class="tag tag-fw">Hectare 5 firmware · 1.0.20</span><span class="tag tag-draft">Brouillon</span></div><p class="lead">Les paramètres communs à un groupe de capteurs optiques de graines ou d&#x27;engrais solide — fraction, sensibilité, écart de dose, manques et doubles, pourcentage de semis, tolérance de jalonnage — et le commutateur par capteur de l&#x27;application du produit.</p><p>Les capteurs de graines et les capteurs d'engrais solide sont des appareils de même type et partagent un seul jeu de paramètres. <strong>Presque tout ce qui suit est commun à tout le groupe</strong> : modifiez-le sur un capteur et il change pour tous les capteurs du groupe. Deux choses seulement se règlent capteur par capteur : s'il est <strong>sous surveillance</strong> (<strong>« Disable control »</strong> / <strong>« Enable control »</strong>, désactiver / activer la surveillance) et <strong>« Product application »</strong> (application du produit). Maintenez le doigt sur la colonne d'un capteur quelconque du groupe pour ouvrir son menu contextuel (<a href="sensor-settings.html">Réglages des capteurs</a>).</p>
+<figure>
+<img src="../../assets/fig/five/five-ctx-seed-en.png" alt="Le menu contextuel d&#39;un capteur de graines, partie haute." width="800" height="480" class="scr scr-800" loading="lazy">
+<figcaption>Le menu contextuel d'un capteur de graines, partie haute.</figcaption>
+</figure>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Paramètre</strong></th>
+<th><strong>Ce qu'il fait</strong></th>
+<th><strong>Plage, défaut</strong></th>
+<th><strong>Niveau</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>« Product application »</strong></td>
+<td><strong>Par capteur.</strong> <strong>« No »</strong> (non) — le rang n'applique volontairement rien, et le panneau le surveille comme un rang de jalonnage coupé. Non proposé quand chaque capteur du groupe a son propre moteur de doseur.</td>
+<td><strong>« No »</strong> / <strong>« Yes »</strong> (oui)</td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Sensitivity »</strong></td>
+<td>La sensibilité du canal optique (sensibilité). Affiché seulement pour les types de capteurs qui l'utilisent.</td>
+<td>1 … 120 ; 80</td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Fraction »</strong></td>
+<td>Le filtre du capteur pour la taille des particules de produit (fraction). Les alarmes de dose, de manques et de doubles indiquent dans quel sens le modifier.</td>
+<td>1 … 100 ; 10</td>
+<td>Operator</td>
+</tr>
+<tr>
+<td><strong>« Correction »</strong></td>
+<td>Une correction de la fenêtre de détection du canal optique (correction). Affiché seulement pour le type de capteur qui l'utilise.</td>
+<td>100 … 3300, par pas de 10 ; 300</td>
+<td>Operator</td>
+</tr>
+<tr>
+<td><strong>« Rate error,% »</strong></td>
+<td>De combien la dose réelle peut s'écarter de la dose de consigne avant une alarme (écart de dose, %). Modes <strong>« Hybrid »</strong> et <strong>« Precise »</strong> uniquement.</td>
+<td>5 … 95, par pas de 5 ; 50</td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Doubles error,% »</strong></td>
+<td>La part de doubles qui déclenche une alarme (écart des doubles, %). <strong>« No »</strong> (0) désactive l'alarme. <strong>Mode « Precise » uniquement.</strong></td>
+<td>0 … 95 ; <strong>« No »</strong></td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Skips error,% »</strong></td>
+<td>La part de manques qui déclenche une alarme (écart des manques, %). <strong>« No »</strong> (0) désactive l'alarme. <strong>Mode « Precise » uniquement.</strong></td>
+<td>0 … 95 ; <strong>« No »</strong></td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Recalculation,m »</strong> / <strong>« Recalculation,sec »</strong></td>
+<td>Le tronçon sur lequel manques et doubles sont comptés (recalcul) — en mètres sur une machine avec capteur de vitesse, en secondes sans.</td>
+<td>10 … 50 ; 20</td>
+<td>Operator</td>
+</tr>
+<tr>
+<td><strong>« Percent of sowing,% »</strong></td>
+<td>La part des capteurs de graines sous surveillance qui doivent voir des graines pour que le panneau décide que le semis a commencé (pourcentage de semis). Capteurs de graines uniquement ; masqué sur une machine à moteurs de doseur ou à pompe.</td>
+<td>5 … 80, par pas de 5 ; 20</td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Toler.sowing to tramline,% »</strong></td>
+<td>Ce qu'une section qui doit être coupée pour le jalonnage peut encore délivrer (tolérance de semis au jalonnage, %).</td>
+<td>0 … 50 ; 20</td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Group start address »</strong></td>
+<td>Capteurs d'engrais uniquement (adresse de début du groupe). Réglé à la mise en service — voir <a href="device-configuration.html">Configuration des appareils</a>.</td>
+<td>—</td>
+<td>Agronomist</td>
+</tr>
+</tbody>
+</table></div>
+<aside class="co co-tip"><div class="co-h">CONSEIL</div>
+<p><strong>« Fraction » est le premier réglage à examiner quand les alarmes de dose ne correspondent pas à la réalité.</strong> La plupart des alarmes de dose, de manques et de doubles le nomment, avec le sens dans lequel le modifier : <a href="alarms-rate.html">Alarmes de dose</a>, <a href="alarms-seeding-quality.html">Doubles et manques</a>, <a href="alarms-tramline.html">Alarmes de jalonnage</a>.</p>
+</aside>
+<p>Les doses de consigne et le seuil d'alarme ne sont pas des éléments de menu : ils se modifient pendant le travail, sur l'écran d'accueil — voir <a href="set-the-target-rate.html">Modifier la dose de consigne</a>. L'écran d'état de ces capteurs montre l'un de huit états — voir <a href="sensor-status-screen.html#the-eight-states-of-a-seed-or-fertilizer-sensor">L'écran d'état d'un capteur</a>. Si un capteur signale <strong>« Clogged »</strong> (obstrué), <strong>« Light struck »</strong> (éblouissement) ou <strong>« Broken »</strong> (cassé) : <a href="alarms-sensor-state.html">Capteur obstrué ou cassé</a>.</p>
+<nav class="pn"><a class="pn-p" href="calibrate-speed.html"><small>Précédent</small><span>Étalonner le capteur de vitesse</span></a><a class="pn-n" href="liquid-fertilizer.html"><small>Suivant</small><span>Capteurs d&#x27;engrais liquide et contrôleur de pompe</span></a></nav><p class="help">Votre machine fait quelque chose que cette page n&#x27;explique pas ? Écrivez à <a href="mailto:support@agriwelt.com">support@agriwelt.com</a> — un ingénieur vous répond.</p></article></main><aside class="toc"></aside></div>
+<div class="search" hidden>
+ <div class="search-box" role="dialog" aria-label="Recherche">
+  <div class="search-in"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Rechercher dans ce manuel…" autocomplete="off" spellcheck="false"><button type="button" class="search-x" aria-label="close">Esc</button></div>
+  <label class="search-all"><input type="checkbox"> Rechercher dans tous les produits</label>
+  <div class="search-res" data-empty="Aucun résultat. Essayez un autre mot, ou le libellé affiché à l&#x27;écran."></div>
+ </div>
+</div>
+<script>window.AW={root:"../../",lang:"fr",product:"five"};</script>
+<script src="../../assets/search-fr.js" defer></script>
+<script src="../../assets/docs.js" defer></script>
+</body>
+</html>

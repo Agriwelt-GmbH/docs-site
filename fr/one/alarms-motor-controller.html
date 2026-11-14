@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr" data-product="one">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moteur de dosage : blocage, défauts électriques, chargeur d&#x27;amorçage — Hectare One | Agriwelt Docs</title>
+<meta name="description" content="Que faire quand le contrôleur d&#x27;un moteur électrique de doseur signale un blocage, un court-circuit, une surintensité, une mauvaise tension d&#x27;alimentation, une surchauffe ou un défaut inconnu.">
+<link rel="canonical" href="https://docs.agriwelt.com/fr/one/alarms-motor-controller.html">
+<link rel="alternate" hreflang="en" href="https://docs.agriwelt.com/en/one/alarms-motor-controller.html"><link rel="alternate" hreflang="de" href="https://docs.agriwelt.com/de/one/alarms-motor-controller.html"><link rel="alternate" hreflang="fr" href="https://docs.agriwelt.com/fr/one/alarms-motor-controller.html">
+<script>try{var t=localStorage.getItem('aw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/docs.css">
+</head>
+<body>
+<header class="top">
+ <button class="nav-btn" type="button" aria-label="Sommaire"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ <a class="brand" href="../../fr/index.html"><span class="brand-a">AGRIWELT</span><span class="brand-d">Docs</span></a>
+ <a class="crumb" href="../../fr/one/index.html">Hectare One</a>
+ <div class="top-r">
+  <button class="search-btn" type="button" aria-label="Recherche"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Recherche</span><kbd>/</kbd></button>
+  <nav class="langs" aria-label="Language"><a href="../../en/one/alarms-motor-controller.html" hreflang="en">EN</a><a href="../../de/one/alarms-motor-controller.html" hreflang="de">DE</a><a href="../../fr/one/alarms-motor-controller.html" class="on" hreflang="fr">FR</a></nav>
+  <button class="theme-btn" type="button" aria-label="Clair / sombre" title="Clair / sombre"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+ </div>
+</header>
+<div class="wrap"><aside class="side"><div class="side-in"><a class="side-home" href="../index.html">← Tous les produits</a><a class="side-prod" href="index.html">Hectare One</a><details><summary>Pour commencer</summary><ul><li><a href="overview.html">Ce que fait le système</a></li><li><a href="whats-supplied.html">Ce qui est fourni</a></li><li><a href="safety.html">Sécurité</a></li><li><a href="front-panel.html">Panneau et boutons</a></li><li><a href="switching-on.html">Mise sous tension</a></li><li><a href="interface-basics.html">Bases de l&#x27;interface</a></li><li><a href="quick-start.html">Démarrage rapide</a></li><li><a href="about-the-pictures.html">À propos des images</a></li></ul></details><details><summary>Les écrans</summary><ul><li><a href="home-screen.html">Écran d&#x27;accueil</a></li><li><a href="section-diagram.html">Diagramme des sections</a></li><li><a href="section-states.html">Couleurs des colonnes et états</a></li><li><a href="home-screen-examples.html">Exemples d&#x27;écran d&#x27;accueil</a></li><li><a href="indicators.html">Indicateurs</a></li><li><a href="second-home-screen.html">Le deuxième écran d&#x27;accueil</a></li><li><a href="working-screens.html">Écrans de travail</a></li><li><a href="table-screen.html">L&#x27;écran Table</a></li><li><a href="statistics-screen.html">L&#x27;écran Statistics</a></li><li><a href="motors-screen.html">L&#x27;écran Motors</a></li></ul></details><details><summary>Comment faire…</summary><ul><li><a href="set-the-target-rate.html">Modifier la dose de consigne</a></li><li><a href="lock-application-by-hand.html">Verrouiller l&#x27;application à la main</a></li><li><a href="set-the-alarm-level.html">Régler le seuil d&#x27;alarme</a></li><li><a href="sensor-in-and-out-of-control.html">Mettre un capteur sous ou hors surveillance</a></li><li><a href="zero-the-readings.html">Remettre les mesures à zéro</a></li><li><a href="fill-the-disks.html">Remplir les disques</a></li><li><a href="tramline-rhythm.html">Rythme de jalonnage</a></li><li><a href="next-tramline-bout.html">Passage de jalonnage suivant</a></li><li><a href="screen-brightness.html">Luminosité de l&#x27;écran</a></li><li><a href="work-without-speed-sensor.html">Travailler sans capteur de vitesse</a></li></ul></details><details><summary>Réglages</summary><ul><li><a href="access-levels.html">Niveaux d&#x27;accès</a></li><li><a href="enable-agronomist-level.html">Activer Agronomist</a></li><li><a href="profile.html">Le profil</a></li><li><a href="save-and-load-settings.html">Enregistrer et charger les réglages</a></li><li><a href="settings-menu.html">Menu Settings</a></li><li><a href="seeding-machine-parameters.html">Paramètres du semoir</a></li><li><a href="sensor-settings.html">Réglages des capteurs</a></li><li><a href="sensor-status-screen.html">Écran d&#x27;état</a></li><li><a href="speed-sensor.html">Capteur de vitesse</a></li><li><a href="calibrate-speed.html">Étalonner la vitesse</a></li><li><a href="seed-and-fertilizer-sensors.html">Capteurs de graines et d&#x27;engrais</a></li><li><a href="liquid-fertilizer.html">Engrais liquide</a></li><li><a href="dispenser-sensor.html">Capteur de doseur</a></li><li><a href="calibrate-dispenser-rotation.html">Étalonner la rotation du doseur</a></li><li><a href="calibrate-dispenser-weight.html">Étalonner le doseur au poids</a></li><li><a href="dispenser-motor.html">Moteur de doseur</a></li><li><a href="calibrate-motor-weight.html">Étalonner le moteur au poids</a></li><li><a href="fan-sensor.html">Capteur de turbine</a></li><li><a href="pressure-sensor.html">Capteur de pression</a></li><li><a href="marker-sensors.html">Capteurs de traceurs</a></li><li><a href="hopper-position-engine-sensors.html">Trémie, position, moteur</a></li><li><a href="tramline-actuator.html">Actionneur de jalonnage</a></li><li><a href="device-configuration.html">Configuration des appareils</a></li><li><a href="configure-seed-sensor.html">Capteur de graines</a></li><li><a href="configure-pressure-sensor.html">Capteur de pression</a></li><li><a href="configure-hub8.html">HUB8</a></li><li><a href="configure-tramline-actuator.html">Actionneur de jalonnage</a></li><li><a href="configure-motor-controllers.html">Contrôleurs de moteurs</a></li><li><a href="motor-controller-diagnostics.html">Diagnostic des moteurs</a></li><li><a href="service-menu.html">Menu Service</a></li></ul></details><details open><summary>Alarmes et dépannage</summary><ul><li><a href="how-alarms-work.html">Fonctionnement des alarmes</a></li><li><a href="alarms-any-device.html">Liaison perdue, appareil incorrect</a></li><li><a href="alarms-rotation.html">Vitesse de la turbine et du doseur</a></li><li><a href="alarms-hopper.html">Trémie vide</a></li><li><a href="alarms-pressure.html">Pression d&#x27;air</a></li><li><a href="alarms-rate.html">Alarmes de dose</a></li><li><a href="alarms-seeding-quality.html">Doubles et manques</a></li><li><a href="alarms-tramline.html">Alarmes de jalonnage</a></li><li><a href="alarms-sensor-state.html">Capteur obstrué ou défectueux</a></li><li><a href="alarms-tractor.html">Alarmes du moteur du tracteur</a></li><li><a href="alarms-dosing-by-weight.html">Dosage au poids</a></li><li><a href="alarms-access-level.html">Avertissement niveau Agronomist</a></li><li><a href="alarms-speed-sensor.html">Alarmes du capteur de vitesse</a></li><li><a href="alarms-motor-controller.html" class="on" aria-current="page">Alarmes des moteurs de dosage</a></li><li><a href="alarms-pump-controller.html">Pompe d&#x27;engrais liquide</a></li><li><a href="motor-fault-codes.html">Codes de défaut des moteurs</a></li></ul></details><details><summary>Référence</summary><ul><li><a href="buttons-and-gestures.html">Boutons et gestes</a></li><li><a href="terms.html">Termes</a></li></ul></details></div></aside><main><article class="doc"><div class="eyebrow">Alarmes et dépannage</div><h1>Moteur de dosage : blocage, défauts électriques, chargeur d&#x27;amorçage</h1><div class="tags"><span class="tag tag-troubleshooting">Dépannage</span><span class="tag tag-fw">Hectare One firmware · 1.2.3</span></div><p class="lead">Que faire quand le contrôleur d&#x27;un moteur électrique de doseur signale un blocage, un court-circuit, une surintensité, une mauvaise tension d&#x27;alimentation, une surchauffe ou un défaut inconnu.</p><p>Ces alarmes viennent du contrôleur qui commande un moteur électrique de doseur. Le nom dans la fenêtre d'alarme vous dit de quel moteur il s'agit. Fonctionnement de la fenêtre : <a href="how-alarms-work.html">Fonctionnement des alarmes</a>.</p>
+<h2 id="motor-jammed">« Motor jammed! » — moteur bloqué</h2>
+<p><strong>Ce que cela signifie.</strong> Le contrôleur ne voit aucune rotation alors que le moteur devrait tourner.</p>
+<p><strong>À vérifier, dans cet ordre :</strong></p>
+<ol type="1">
+<li>Le doseur est en bon état et tourne librement.</li>
+<li>Le capteur de rotation du moteur est en état de marche, ainsi que sa liaison avec le contrôleur — le câble et le connecteur.</li>
+</ol>
+<h2 id="short-circuit">« Short circuit » — court-circuit</h2>
+<p><strong>Ce que cela signifie.</strong> Le contrôleur a détecté un court-circuit.</p>
+<p><strong>À vérifier, dans cet ordre :</strong></p>
+<ol type="1">
+<li>Le câblage : les câbles et le connecteur sont intacts.</li>
+<li>Remplacez le contrôleur par un contrôleur en bon état pour le tester.</li>
+</ol>
+<h2 id="over-current">« Over current » — surintensité</h2>
+<p><strong>Ce que cela signifie.</strong> Le courant a dépassé la limite.</p>
+<p><strong>À vérifier, dans cet ordre :</strong></p>
+<ol type="1">
+<li>Le moteur et le mécanisme de semis ne sont pas bloqués.</li>
+<li>Le câblage : les câbles et le connecteur sont intacts.</li>
+<li>Remplacez le contrôleur par un contrôleur en bon état pour le tester.</li>
+</ol>
+<h2 id="under-voltage">« Under voltage » — sous-tension</h2>
+<p><strong>Ce que cela signifie.</strong> La tension d'alimentation du moteur est inférieure à la valeur admise. Le moteur ne peut pas tourner.</p>
+<p><strong>Mesurez d'abord la tension d'alimentation.</strong></p>
+<p><strong>Si elle est trop basse :</strong></p>
+<ol type="1">
+<li>L'alternateur est en état de marche.</li>
+<li>La tension des courroies de l'alternateur.</li>
+<li>Le faisceau d'alimentation est fermement raccordé aux bornes de la batterie ou de l'alternateur, comme l'exige la tension d'alimentation requise.</li>
+<li>Les raccordements des câbles assurent un contact électrique fiable.</li>
+</ol>
+<p><strong>Si la tension d'alimentation est correcte :</strong> remplacez le contrôleur par un contrôleur en bon état pour le tester.</p>
+<h2 id="over-voltage">« Over voltage » — surtension</h2>
+<p><strong>Ce que cela signifie.</strong> La tension d'alimentation du moteur est supérieure à la valeur admise. Le moteur ne peut pas tourner.</p>
+<p><strong>Mesurez d'abord la tension d'alimentation.</strong></p>
+<p><strong>Si elle est trop élevée :</strong></p>
+<ol type="1">
+<li>L'alternateur est en état de marche.</li>
+<li>Le faisceau d'alimentation est fermement raccordé aux bornes de la batterie ou de l'alternateur, comme l'exige la tension d'alimentation requise.</li>
+<li>Les raccordements des câbles assurent un contact électrique fiable.</li>
+</ol>
+<p><strong>Si la tension d'alimentation est correcte :</strong> remplacez le contrôleur par un contrôleur en bon état pour le tester.</p>
+<h2 id="over-temperature">« Over temperature » — surchauffe</h2>
+<p><strong>Ce que cela signifie.</strong> Le moteur a surchauffé.</p>
+<p><strong>Que faire, dans cet ordre :</strong></p>
+<ol type="1">
+<li>Laissez le moteur refroidir.</li>
+<li>Remplacez le contrôleur par un contrôleur en bon état pour le tester.</li>
+</ol>
+<h2 id="failure">« FAILURE » — défaillance</h2>
+<p><strong>Ce que cela signifie.</strong> Le contrôleur a détecté un défaut inhabituel qui exige l'intervention du support technique.</p>
+<p><strong>Que faire, dans cet ordre :</strong></p>
+<ol type="1">
+<li>Lisez le code de défaut : menu contextuel du moteur → <strong>« Information »</strong> → ligne <strong>« Last fault »</strong> (dernier défaut). Voir <a href="motor-fault-codes.html">Lire le code de défaut d'un moteur électrique</a>.</li>
+<li>Remplacez le contrôleur par un contrôleur en bon état pour le tester.</li>
+<li>Communiquez le code et le numéro du moteur au support technique.</li>
+</ol>
+<h2 id="device-in-bootloader">« Device in bootloader! » — appareil en mode chargeur d'amorçage</h2>
+<p><strong>Ce que cela signifie.</strong> Le contrôleur est resté en mode de mise à jour du micrologiciel et n'exécute pas son programme de travail. Il ne peut pas commander le moteur.</p>
+<p><strong>Que faire, dans cet ordre :</strong></p>
+<ol type="1">
+<li>Coupez puis rétablissez l'alimentation.</li>
+<li>Si le message revient, la mise à jour du micrologiciel du contrôleur n'a pas été menée à son terme. Appelez le support technique.</li>
+</ol>
+<aside class="co co-see"><div class="co-h">VOIR AUSSI</div>
+<p>Le contrôleur de pompe d'engrais liquide déclenche les mêmes alarmes électriques — <a href="alarms-pump-controller.html">Pompe d'engrais liquide</a>.</p>
+</aside>
+<nav class="pn"><a class="pn-p" href="alarms-speed-sensor.html"><small>Précédent</small><span>Capteur de vitesse d&#x27;avancement en panne ou limites de vitesse contradictoires</span></a><a class="pn-n" href="alarms-pump-controller.html"><small>Suivant</small><span>Pompe d&#x27;engrais liquide : alarmes de pression et de dose</span></a></nav><p class="help">Votre machine fait quelque chose que cette page n&#x27;explique pas ? Écrivez à <a href="mailto:support@agriwelt.com">support@agriwelt.com</a> — un ingénieur vous répond.</p></article></main><aside class="toc"><div class="toc-in"><div class="toc-h">Sur cette page</div><ul><li class="l2"><a href="#motor-jammed">« Motor jammed! » — moteur bloqué</a></li><li class="l2"><a href="#short-circuit">« Short circuit » — court-circuit</a></li><li class="l2"><a href="#over-current">« Over current » — surintensité</a></li><li class="l2"><a href="#under-voltage">« Under voltage » — sous-tension</a></li><li class="l2"><a href="#over-voltage">« Over voltage » — surtension</a></li><li class="l2"><a href="#over-temperature">« Over temperature » — surchauffe</a></li><li class="l2"><a href="#failure">« FAILURE » — défaillance</a></li><li class="l2"><a href="#device-in-bootloader">« Device in bootloader! » — appareil en mode chargeur d&#x27;amorçage</a></li></ul></div></aside></div>
+<div class="search" hidden>
+ <div class="search-box" role="dialog" aria-label="Recherche">
+  <div class="search-in"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Rechercher dans ce manuel…" autocomplete="off" spellcheck="false"><button type="button" class="search-x" aria-label="close">Esc</button></div>
+  <label class="search-all"><input type="checkbox"> Rechercher dans tous les produits</label>
+  <div class="search-res" data-empty="Aucun résultat. Essayez un autre mot, ou le libellé affiché à l&#x27;écran."></div>
+ </div>
+</div>
+<script>window.AW={root:"../../",lang:"fr",product:"one"};</script>
+<script src="../../assets/search-fr.js" defer></script>
+<script src="../../assets/docs.js" defer></script>
+</body>
+</html>

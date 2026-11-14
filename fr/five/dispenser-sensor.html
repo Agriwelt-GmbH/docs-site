@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr" data-product="five">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capteur d&#x27;arbre de doseur — Hectare 5 | Agriwelt Docs</title>
+<meta name="description" content="Les paramètres du capteur d&#x27;arbre de doseur — surveillance de la rotation par rapport à la roue, ou surveillance au poids par la masse appliquée — avec plages et valeurs par défaut.">
+<link rel="canonical" href="https://docs.agriwelt.com/fr/five/dispenser-sensor.html">
+<link rel="alternate" hreflang="en" href="https://docs.agriwelt.com/en/five/dispenser-sensor.html"><link rel="alternate" hreflang="de" href="https://docs.agriwelt.com/de/five/dispenser-sensor.html"><link rel="alternate" hreflang="fr" href="https://docs.agriwelt.com/fr/five/dispenser-sensor.html">
+<script>try{var t=localStorage.getItem('aw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/docs.css">
+</head>
+<body>
+<header class="top">
+ <button class="nav-btn" type="button" aria-label="Sommaire"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ <a class="brand" href="../../fr/index.html"><span class="brand-a">AGRIWELT</span><span class="brand-d">Docs</span></a>
+ <a class="crumb" href="../../fr/five/index.html">Hectare 5</a>
+ <div class="top-r">
+  <button class="search-btn" type="button" aria-label="Recherche"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Recherche</span><kbd>/</kbd></button>
+  <nav class="langs" aria-label="Language"><a href="../../en/five/dispenser-sensor.html" hreflang="en">EN</a><a href="../../de/five/dispenser-sensor.html" hreflang="de">DE</a><a href="../../fr/five/dispenser-sensor.html" class="on" hreflang="fr">FR</a></nav>
+  <button class="theme-btn" type="button" aria-label="Clair / sombre" title="Clair / sombre"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+ </div>
+</header>
+<div class="wrap"><aside class="side"><div class="side-in"><a class="side-home" href="../index.html">← Tous les produits</a><a class="side-prod" href="index.html">Hectare 5</a><details><summary>Pour commencer</summary><ul><li><a href="overview.html">Ce que fait le système</a></li><li><a href="front-panel.html">Le panneau</a></li><li><a href="switching-on.html">Mise sous tension</a></li><li><a href="interface-basics.html">Bases de l&#x27;interface</a></li><li><a href="quick-start.html">Démarrage rapide</a></li><li><a href="about-the-pictures.html">À propos des images</a></li></ul></details><details><summary>Les écrans</summary><ul><li><a href="home-screen.html">Écran d&#x27;accueil</a></li><li><a href="section-diagram.html">Diagramme des sections</a></li><li><a href="section-states.html">Couleurs des colonnes et états</a></li><li><a href="indicators.html">Indicateurs</a></li><li><a href="gps.html">GPS</a></li><li><a href="second-home-screen.html">Le second écran d&#x27;accueil</a></li><li><a href="working-screens.html">Écrans de travail</a></li><li><a href="table-screen.html">L&#x27;écran Table</a></li><li><a href="statistics-screen.html">L&#x27;écran Statistics</a></li><li><a href="motors-screen.html">L&#x27;écran Motors</a></li></ul></details><details><summary>Comment faire…</summary><ul><li><a href="set-the-target-rate.html">Modifier la dose de consigne</a></li><li><a href="lock-application-by-hand.html">Verrouiller l&#x27;application à la main</a></li><li><a href="set-the-alarm-level.html">Régler le seuil d&#x27;alarme</a></li><li><a href="sensor-in-and-out-of-control.html">Mettre un capteur sous ou hors surveillance</a></li><li><a href="zero-the-readings.html">Remettre les mesures à zéro</a></li><li><a href="fill-the-disks.html">Remplir les disques</a></li><li><a href="tramline-rhythm.html">Rythme de jalonnage</a></li><li><a href="screen-brightness.html">Luminosité de l&#x27;écran</a></li><li><a href="work-without-speed-sensor.html">Travailler sans capteur de vitesse</a></li></ul></details><details open><summary>Réglages</summary><ul><li><a href="access-levels.html">Niveaux d&#x27;accès</a></li><li><a href="enable-agronomist-level.html">Activer Agronomist</a></li><li><a href="profile.html">Le profil</a></li><li><a href="save-and-load-settings.html">Enregistrer et charger les réglages</a></li><li><a href="settings-menu.html">Menu Settings</a></li><li><a href="seeding-machine-parameters.html">Paramètres du semoir</a></li><li><a href="sensor-settings.html">Réglages des capteurs</a></li><li><a href="sensor-status-screen.html">Écran d&#x27;état</a></li><li><a href="speed-sensor.html">Capteur de vitesse</a></li><li><a href="calibrate-speed.html">Étalonner la vitesse</a></li><li><a href="seed-and-fertilizer-sensors.html">Capteurs de graines et d&#x27;engrais</a></li><li><a href="liquid-fertilizer.html">Engrais liquide</a></li><li><a href="dispenser-sensor.html" class="on" aria-current="page">Capteur de doseur</a></li><li><a href="calibrate-dispenser-rotation.html">Étalonner la rotation du doseur</a></li><li><a href="calibrate-dispenser-weight.html">Étalonner le doseur au poids</a></li><li><a href="dispenser-motor.html">Moteur de doseur</a></li><li><a href="calibrate-motor-weight.html">Étalonner un moteur au poids</a></li><li><a href="fan-sensor.html">Capteur de turbine</a></li><li><a href="pressure-sensor.html">Capteur de pression</a></li><li><a href="marker-sensors.html">Capteurs de traceurs</a></li><li><a href="hopper-position-engine-sensors.html">Trémie, position, moteur</a></li><li><a href="tramline-actuator.html">Actionneur de jalonnage</a></li><li><a href="device-configuration.html">Configuration des appareils</a></li><li><a href="configure-seed-sensor.html">Capteur de graines</a></li><li><a href="configure-pressure-sensor.html">Capteur de pression</a></li><li><a href="configure-hub8.html">HUB8</a></li><li><a href="configure-tramline-actuator.html">Actionneur de jalonnage</a></li><li><a href="configure-motor-controllers.html">Contrôleurs de moteurs</a></li><li><a href="motor-controller-diagnostics.html">Diagnostic des moteurs</a></li><li><a href="service-menu.html">Menu Service</a></li></ul></details><details><summary>Alarmes et dépannage</summary><ul><li><a href="how-alarms-work.html">Fonctionnement des alarmes</a></li><li><a href="alarms-any-device.html">Connexion perdue, mauvais appareil</a></li><li><a href="alarms-rotation.html">Vitesse de la turbine et du doseur</a></li><li><a href="alarms-hopper.html">Trémie vide</a></li><li><a href="alarms-pressure.html">Pression d&#x27;air</a></li><li><a href="alarms-rate.html">Alarmes de dose</a></li><li><a href="alarms-seeding-quality.html">Doubles et manques</a></li><li><a href="alarms-tramline.html">Alarmes de jalonnage</a></li><li><a href="alarms-sensor-state.html">Capteur obstrué ou cassé</a></li><li><a href="alarms-tractor.html">Alarmes du moteur</a></li><li><a href="alarms-dosing-by-weight.html">Dosage au poids</a></li><li><a href="alarms-access-level.html">Avertissement niveau Agronomist</a></li><li><a href="alarms-speed-sensor.html">Alarmes du capteur de vitesse</a></li><li><a href="alarms-motor-controller.html">Alarmes des moteurs de dosage</a></li><li><a href="alarms-pump-controller.html">Pompe d&#x27;engrais liquide</a></li><li><a href="motor-fault-codes.html">Codes de défaut des moteurs</a></li></ul></details><details><summary>Référence</summary><ul><li><a href="buttons-and-gestures.html">Zones tactiles et gestes</a></li><li><a href="terms.html">Termes</a></li></ul></details></div></aside><main><article class="doc"><div class="eyebrow">Réglages</div><h1>Capteur d&#x27;arbre de doseur</h1><div class="tags"><span class="tag tag-reference">Référence</span><span class="tag tag-fw">Hectare 5 firmware · 1.0.20</span><span class="tag tag-draft">Brouillon</span></div><p class="lead">Les paramètres du capteur d&#x27;arbre de doseur — surveillance de la rotation par rapport à la roue, ou surveillance au poids par la masse appliquée — avec plages et valeurs par défaut.</p><p>Le capteur d'arbre de doseur compte les tours d'un doseur entraîné par la roue au sol. Le panneau peut le surveiller de deux façons : par sa <strong>rotation</strong> par rapport au capteur de vitesse, ou par la <strong>masse</strong> de produit qu'il applique. Maintenez le doigt sur l'icône du doseur de l'écran d'accueil pour ouvrir son menu contextuel (<a href="sensor-settings.html">Réglages des capteurs</a>).</p>
+<figure>
+<img src="../../assets/fig/five/five-ctx-dispenser-en.png" alt="Le menu contextuel d&#39;un capteur de doseur, les deux surveillances désactivées." width="800" height="480" class="scr scr-800" loading="lazy">
+<figcaption>Le menu contextuel d'un capteur de doseur, les deux surveillances désactivées.</figcaption>
+</figure>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Paramètre</strong></th>
+<th><strong>Ce qu'il fait</strong></th>
+<th><strong>Plage, défaut</strong></th>
+<th><strong>Niveau</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>« Period, s »</strong></td>
+<td>Combien de temps l'arbre peut ne donner aucune impulsion avant d'être considéré à l'arrêt — et combien de temps, après le début du semis ou du déplacement, le panneau attend avant d'exiger la rotation (période, s).</td>
+<td>1 … 60 ; 10</td>
+<td>Operator</td>
+</tr>
+<tr>
+<td><strong>« Rotation speed control »</strong></td>
+<td>Surveiller la rotation de l'arbre par rapport à la vitesse d'avancement (contrôle de la vitesse de rotation).</td>
+<td><strong>« No »</strong> / <strong>« Yes »</strong> ; <strong>« No »</strong></td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Wheel, pulses »</strong></td>
+<td>Réglé par l'étalonnage de la rotation (impulsions de la roue). Affiché avec la surveillance de rotation activée.</td>
+<td>1 … 65535 ; 100</td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Dispenser pulses »</strong></td>
+<td>Réglé par l'étalonnage de la rotation (impulsions du doseur). Affiché avec la surveillance de rotation activée.</td>
+<td>1 … 65535 ; 100</td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Maximum error, % »</strong></td>
+<td>De combien la vitesse de l'arbre peut s'écarter de la vitesse que demande la vitesse d'avancement avant <strong>« Low speed of rotation »</strong> (vitesse de rotation trop faible) ou <strong>« High speed of rotation »</strong> (vitesse de rotation trop élevée). Affiché avec la surveillance de rotation activée (écart maximal).</td>
+<td>1 … 50 ; 10</td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Weight control »</strong></td>
+<td>Surveiller le doseur par la <strong>masse</strong> appliquée plutôt que par sa rotation (contrôle au poids).</td>
+<td><strong>« No »</strong> / <strong>« Yes »</strong> ; <strong>« No »</strong></td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Type of product »</strong></td>
+<td>Lequel des quatre produits ce doseur dose (type de produit). Affiché avec la surveillance au poids activée.</td>
+<td><strong>« Product 1 »</strong> … <strong>« Product 4 »</strong></td>
+<td>Agronomist</td>
+</tr>
+<tr>
+<td><strong>« Weight, gr »</strong> / <strong>« Weight, pulses »</strong></td>
+<td>Tous deux réglés par l'étalonnage au poids (poids, g / impulsions du poids). Affichés avec la surveillance au poids activée. Pavé numérique.</td>
+<td>1 … 65535 chacun</td>
+<td>Agronomist</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Sans capteur de vitesse dans le profil, seul « Period, s » est proposé</strong> — les deux types de surveillance exigent la vitesse d'avancement. Avec <strong>« Weight control »</strong> activé, le menu contextuel contient aussi <strong>« Dispenser calibration(weight) »</strong> (étalonnage du doseur au poids).</p>
+<aside class="co co-tip"><div class="co-h">CONSEIL</div>
+<p><strong>Préférez la surveillance au poids à la surveillance de rotation.</strong> La surveillance de rotation remarque que l'arbre s'est arrêté, pas que le produit s'est arrêté. <strong>« Weight control »</strong> surveille les kilogrammes par hectare appliqués et détecte une trémie vide ou voûtée dont le doseur tourne encore.</p>
+</aside>
+<h2 id="calibrations">Étalonnages</h2>
+<ul>
+<li><strong>Rotation</strong> — pour <strong>« Rotation speed control »</strong> : <a href="calibrate-dispenser-rotation.html">Étalonner la rotation du doseur</a>.</li>
+<li><strong>Masse</strong> — pour <strong>« Weight control »</strong> ; refaites-le à chaque changement de produit : <a href="calibrate-dispenser-weight.html">Étalonner le doseur au poids</a>.</li>
+</ul>
+<p>L'écran d'état montre la fréquence des impulsions de l'arbre <strong>F=</strong> en Hz, avec trois décimales. Ses alarmes : <a href="alarms-rotation.html">Arbre de turbine ou de doseur : alarmes de vitesse</a>, et avec la surveillance au poids <a href="alarms-dosing-by-weight.html">Dosage au poids</a>.</p>
+<nav class="pn"><a class="pn-p" href="liquid-fertilizer.html"><small>Précédent</small><span>Capteurs d&#x27;engrais liquide et contrôleur de pompe</span></a><a class="pn-n" href="calibrate-dispenser-rotation.html"><small>Suivant</small><span>Étalonner la rotation du doseur</span></a></nav><p class="help">Votre machine fait quelque chose que cette page n&#x27;explique pas ? Écrivez à <a href="mailto:support@agriwelt.com">support@agriwelt.com</a> — un ingénieur vous répond.</p></article></main><aside class="toc"></aside></div>
+<div class="search" hidden>
+ <div class="search-box" role="dialog" aria-label="Recherche">
+  <div class="search-in"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Rechercher dans ce manuel…" autocomplete="off" spellcheck="false"><button type="button" class="search-x" aria-label="close">Esc</button></div>
+  <label class="search-all"><input type="checkbox"> Rechercher dans tous les produits</label>
+  <div class="search-res" data-empty="Aucun résultat. Essayez un autre mot, ou le libellé affiché à l&#x27;écran."></div>
+ </div>
+</div>
+<script>window.AW={root:"../../",lang:"fr",product:"five"};</script>
+<script src="../../assets/search-fr.js" defer></script>
+<script src="../../assets/docs.js" defer></script>
+</body>
+</html>

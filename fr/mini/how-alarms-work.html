@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="fr" data-product="mini">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fonctionnement des alarmes — Hectare Mini | Agriwelt Docs</title>
+<meta name="description" content="Quand le Hectare Mini déclenche une alarme, ce que montre la fenêtre d&#x27;alarme, comment la fermer, quels messages ne sont pas des fenêtres d&#x27;alarme et comment les rubriques d&#x27;alarme de ce manuel sont organisées.">
+<link rel="canonical" href="https://docs.agriwelt.com/fr/mini/how-alarms-work.html">
+<link rel="alternate" hreflang="en" href="https://docs.agriwelt.com/en/mini/how-alarms-work.html"><link rel="alternate" hreflang="de" href="https://docs.agriwelt.com/de/mini/how-alarms-work.html"><link rel="alternate" hreflang="fr" href="https://docs.agriwelt.com/fr/mini/how-alarms-work.html">
+<script>try{var t=localStorage.getItem('aw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/docs.css">
+</head>
+<body>
+<header class="top">
+ <button class="nav-btn" type="button" aria-label="Sommaire"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ <a class="brand" href="../../fr/index.html"><span class="brand-a">AGRIWELT</span><span class="brand-d">Docs</span></a>
+ <a class="crumb" href="../../fr/mini/index.html">Hectare Mini</a>
+ <div class="top-r">
+  <button class="search-btn" type="button" aria-label="Recherche"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Recherche</span><kbd>/</kbd></button>
+  <nav class="langs" aria-label="Language"><a href="../../en/mini/how-alarms-work.html" hreflang="en">EN</a><a href="../../de/mini/how-alarms-work.html" hreflang="de">DE</a><a href="../../fr/mini/how-alarms-work.html" class="on" hreflang="fr">FR</a></nav>
+  <button class="theme-btn" type="button" aria-label="Clair / sombre" title="Clair / sombre"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+ </div>
+</header>
+<div class="wrap"><aside class="side"><div class="side-in"><a class="side-home" href="../index.html">← Tous les produits</a><a class="side-prod" href="index.html">Hectare Mini</a><details><summary>Pour commencer</summary><ul><li><a href="overview.html">Ce que fait le système</a></li><li><a href="front-panel.html">Panneau et boutons</a></li><li><a href="switching-on.html">Mise en marche</a></li><li><a href="interface-basics.html">Bases de l&#x27;interface</a></li><li><a href="number-pad.html">Pavé numérique</a></li><li><a href="quick-start.html">Démarrage rapide</a></li><li><a href="commissioning.html">Mise en service</a></li><li><a href="about-the-pictures.html">À propos des images</a></li></ul></details><details><summary>Les écrans</summary><ul><li><a href="home-screen.html">Écran d&#x27;accueil</a></li><li><a href="indicators.html">Indicateurs</a></li><li><a href="section-diagram.html">Diagramme des sections</a></li><li><a href="gps-receiver.html">Réception GPS</a></li><li><a href="table-screen.html">Tableau de semis</a></li><li><a href="statistics-screen.html">Statistiques</a></li><li><a href="rate-control-screen.html">Écran de régulation de dose</a></li><li><a href="motors-screen.html">Écran Motors</a></li></ul></details><details><summary>Comment faire…</summary><ul><li><a href="set-the-target-rate.html">Modifier la dose de consigne</a></li><li><a href="set-the-alarm-level.html">Régler le seuil d&#x27;alarme</a></li><li><a href="lock-application-by-hand.html">Verrouiller l&#x27;application à la main</a></li><li><a href="sensor-in-and-out-of-control.html">Capteur sous et hors surveillance</a></li><li><a href="zero-the-readings.html">Remettre les relevés à zéro</a></li><li><a href="start-a-new-field.html">Commencer une nouvelle parcelle</a></li><li><a href="fill-the-disks.html">Remplir les disques</a></li><li><a href="assign-product-to-motor.html">Affecter un produit à un moteur</a></li><li><a href="calibrate-motor-weight.html">Étalonner un moteur au poids</a></li><li><a href="tramline-rhythm.html">Rythme de jalonnage</a></li><li><a href="next-tramline-bout.html">Passage de jalonnage suivant</a></li></ul></details><details><summary>Réglages</summary><ul><li><a href="access-levels.html">Niveaux d&#x27;accès</a></li><li><a href="enable-agronomist-level.html">Activer Agronomist</a></li><li><a href="check-profile-and-connections.html">Vérifier profil et connexions</a></li><li><a href="profile.html">Profil</a></li><li><a href="set-up-the-profile.html">Régler le profil</a></li><li><a href="settings-menu.html">Menu Settings</a></li><li><a href="set-date-and-time.html">Date et heure</a></li><li><a href="seeding-machine-parameters.html">Paramètres du semoir</a></li><li><a href="sensor-settings.html">Réglages des capteurs</a></li><li><a href="sensor-status-screen.html">Écran d&#x27;état</a></li><li><a href="speed-sensor.html">Capteur de vitesse</a></li><li><a href="calibrate-speed.html">Étalonner la vitesse</a></li><li><a href="seed-and-fertilizer-sensors.html">Capteurs de graines et d&#x27;engrais</a></li><li><a href="recalculation-path.html">Longueur de recalcul</a></li><li><a href="dispenser-sensor.html">Capteur de doseur</a></li><li><a href="calibrate-dispenser-rotation.html">Étalonner la rotation du doseur</a></li><li><a href="calibrate-dispenser-weight.html">Étalonner le doseur au poids</a></li><li><a href="fan-sensor.html">Capteur de turbine</a></li><li><a href="pressure-sensor.html">Capteur de pression</a></li><li><a href="hopper-and-work-position-sensors.html">Trémie et position de travail</a></li><li><a href="engine-sensors.html">Capteurs du moteur</a></li><li><a href="marker-sensors.html">Capteurs de traceur</a></li><li><a href="device-configuration.html">Configuration des appareils</a></li><li><a href="configure-seed-sensor.html">Capteur de graines</a></li><li><a href="configure-pressure-sensor.html">Capteur de pression</a></li><li><a href="configure-hub8.html">HUB-8</a></li></ul></details><details open><summary>Alarmes et dépannage</summary><ul><li><a href="how-alarms-work.html" class="on" aria-current="page">Fonctionnement des alarmes</a></li><li><a href="alarms-any-device.html">L&#x27;appareil ne répond pas</a></li><li><a href="alarms-speed-sensor.html">Capteur de vitesse</a></li><li><a href="alarms-seeding.html">Semis</a></li><li><a href="alarms-sensor-state.html">État du capteur de graines</a></li><li><a href="alarms-rotation.html">Vitesse turbine et doseur</a></li><li><a href="alarms-hopper.html">Trémie</a></li><li><a href="alarms-pressure.html">Pression</a></li><li><a href="alarms-engine.html">Moteur</a></li><li><a href="alarms-dosing-by-weight.html">Dosage au poids</a></li><li><a href="alarms-access-level.html">User is Agronomist</a></li><li><a href="alarms-tramline.html">Jalonnage</a></li><li><a href="alarms-electric-motors.html">Moteurs de doseur</a></li></ul></details><details><summary>Référence</summary><ul><li><a href="motor-context-menu.html">Menu contextuel d&#x27;un moteur</a></li><li><a href="buttons-and-gestures.html">Boutons et touchers</a></li><li><a href="terms.html">Termes</a></li></ul></details></div></aside><main><article class="doc"><div class="eyebrow">Alarmes et dépannage</div><h1>Fonctionnement des alarmes</h1><div class="tags"><span class="tag tag-concept">Comprendre</span><span class="tag tag-fw">Hectare Mini firmware · 2.2.8</span></div><p class="lead">Quand le Hectare Mini déclenche une alarme, ce que montre la fenêtre d&#x27;alarme, comment la fermer, quels messages ne sont pas des fenêtres d&#x27;alarme et comment les rubriques d&#x27;alarme de ce manuel sont organisées.</p><p>Une alarme est une fenêtre qui s'ouvre par-dessus l'écran de travail, accompagnée d'un signal d'alarme. Elle vous indique qu'un appareil — un capteur, un moteur, un actionneur — ou le système dans son ensemble a détecté un défaut. Les rubriques d'alarme de cette section sont classées par appareil. <strong>Cherchez les mots que vous voyez à l'écran.</strong></p>
+<h2 id="when-the-panel-raises-an-alarm">Quand le boîtier déclenche une alarme</h2>
+<p>Un défaut n'est pas signalé à l'instant où il apparaît. <strong>La condition doit persister sans interruption pendant la durée réglée dans « Alarm delay » (délai d'alarme) avant que la fenêtre s'ouvre.</strong></p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Réglage</strong></th>
+<th><strong>Valeur</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Où</td>
+<td><strong>« Settings »</strong> (réglages) → <strong>« Alarm delay »</strong>, niveau <strong>« Operator »</strong> (opérateur) — <a href="settings-menu.html">Le menu Settings</a></td>
+</tr>
+<tr>
+<td>Plage</td>
+<td>2 à 20 secondes, par pas de 1 seconde</td>
+</tr>
+<tr>
+<td>Valeur par défaut</td>
+<td>3 secondes. Une valeur enregistrée hors de la plage est remise d'elle-même à 3.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Un délai court réagit vite, mais aussi à un simple cahot ou à une brève interruption du flux de graines. Un délai long garde l'écran calme, mais un vrai défaut peut durer jusqu'à vingt secondes avant que vous en soyez informé.</p>
+<aside class="co co-tip"><div class="co-h">CONSEIL</div>
+<p><strong>Si le système alarme trop souvent sur un champ accidenté, augmentez d'abord « Alarm delay ».</strong> Ne modifiez les réglages des capteurs que si un délai plus long ne suffit pas.</p>
+</aside>
+<p>Deux cas ne suivent pas le délai :</p>
+<ul>
+<li><strong>Une connexion perdue</strong> est comptée en interrogations : <strong>« Connection lost »</strong> (connexion perdue) apparaît après <strong>trois interrogations de suite</strong> sans réponse.</li>
+<li><strong>Juste après qu'un capteur a reçu de nouveaux réglages</strong>, ses alarmes sont retenues pendant un court moment, pour que la configuration d'un appareil ne provoque pas une rafale d'alarmes.</li>
+</ul>
+<h2 id="the-alarm-window">La fenêtre d'alarme</h2>
+<figure class="anatomy"><div class="an-stage" style="padding:7.895% 7.895% 2.632% 7.895%"><div class="an-pic scr scr-320"><img src="../../assets/fig/mini/alarm-window-en.png" alt="La fenêtre d&#x27;alarme d&#x27;un capteur de turbine qui ne répond pas." width="320" height="240"></div><svg class="an-svg" viewBox="-30 -30 380 280" aria-hidden="true"><line class="an-l0" data-n="1" x1="160" y1="-14" x2="160" y2="15"/><line class="an-l" data-n="1" x1="160" y1="-14" x2="160" y2="15"/><circle class="an-t" data-n="1" cx="160" cy="15" r="1.4"/><line class="an-l0" data-n="2" x1="-15" y1="57" x2="15" y2="57"/><line class="an-l" data-n="2" x1="-15" y1="57" x2="15" y2="57"/><circle class="an-t" data-n="2" cx="15" cy="57" r="1.4"/><line class="an-l0" data-n="3" x1="337" y1="88" x2="163" y2="88"/><line class="an-l" data-n="3" x1="337" y1="88" x2="163" y2="88"/><circle class="an-t" data-n="3" cx="163" cy="88" r="1.4"/><line class="an-l0" data-n="4" x1="-15" y1="103" x2="15" y2="103"/><line class="an-l" data-n="4" x1="-15" y1="103" x2="15" y2="103"/><circle class="an-t" data-n="4" cx="15" cy="103" r="1.4"/><line class="an-l0" data-n="5" x1="337" y1="118" x2="33" y2="118"/><line class="an-l" data-n="5" x1="337" y1="118" x2="33" y2="118"/><circle class="an-t" data-n="5" cx="33" cy="118" r="1.4"/><line class="an-l0" data-n="6" x1="-15" y1="195" x2="25" y2="195"/><line class="an-l" data-n="6" x1="-15" y1="195" x2="25" y2="195"/><circle class="an-t" data-n="6" cx="25" cy="195" r="1.4"/><g class="an-b" data-n="1"><circle cx="160" cy="-14" r="8.3"/><text x="160" y="-14" font-size="9.3">1</text></g><g class="an-b" data-n="2"><circle cx="-15" cy="57" r="8.3"/><text x="-15" y="57" font-size="9.3">2</text></g><g class="an-b" data-n="3"><circle cx="337" cy="88" r="8.3"/><text x="337" y="88" font-size="9.3">3</text></g><g class="an-b" data-n="4"><circle cx="-15" cy="103" r="8.3"/><text x="-15" y="103" font-size="9.3">4</text></g><g class="an-b" data-n="5"><circle cx="337" cy="118" r="8.3"/><text x="337" y="118" font-size="9.3">5</text></g><g class="an-b" data-n="6"><circle cx="-15" cy="195" r="8.3"/><text x="-15" y="195" font-size="9.3">6</text></g></svg></div>
+<ol class="an-legend">
+<li><strong>« FAILURE! »</strong> (défaut !) — le titre rouge de chaque fenêtre d'alarme, quel que soit le défaut.</li>
+<li><strong>« HOME - close message »</strong> (HOME - fermer le message) — l'indication pour la fermer.</li>
+<li><strong>Le texte de l'alarme</strong> — le défaut. Cherchez-le sous ce texte dans les rubriques d'alarme.</li>
+<li><strong>Le type d'appareil</strong>, ici la turbine. Le même texte peut venir d'appareils différents ; cette ligne vous dit lequel.</li>
+<li><strong>Le numéro de l'appareil</strong>, ici la turbine 1. Quand plusieurs appareils d'un même type signalent le même défaut, ils partagent une fenêtre et sont listés ensemble, par exemple <strong>#3-5,8</strong>.</li>
+<li><strong>« Close »</strong> (fermer) — ferme cette alarme.</li>
+</ol>
+<figcaption>La fenêtre d'alarme d'un capteur de turbine qui ne répond pas.</figcaption></figure>
+<p>Les alarmes du système dans son ensemble — par exemple sur la dose d'un produit — n'ont pas de ligne d'appareil.</p>
+<h2 id="closing-an-alarm">Fermer une alarme</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Ce que vous faites</strong></th>
+<th><strong>Ce qui se passe</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Appuyez sur <strong>« HOME »</strong>, ou touchez <strong>« Close »</strong></td>
+<td>Cette alarme se ferme. S'il en reste en attente, la suivante s'ouvre. Les autres touches ne font rien dans la fenêtre.</td>
+</tr>
+<tr>
+<td>Maintenez <strong>« HOME »</strong> enfoncé</td>
+<td>La fenêtre se ferme et le boîtier revient à l'écran d'accueil.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Tant que la fenêtre est ouverte, le boîtier émet le signal d'alarme et allume son voyant d'alarme. <strong>Fermer une fenêtre ne répare pas le défaut</strong>, et la même alarme ne revient qu'après que le défaut a disparu puis est réapparu. Les alarmes actives d'un capteur restent listées sur son écran d'état — <a href="sensor-status-screen.html">L'écran d'état d'un capteur</a>.</p>
+<h2 id="alarms-are-hidden-at-the-higher-access-levels">Les alarmes sont masquées aux niveaux d'accès élevés</h2>
+<p>Aux niveaux <strong>« Agronomist »</strong> (agronome) et <strong>« Service »</strong> (service après-vente), aucune fenêtre d'alarme n'est affichée. Elles ne sont pas perdues : quand vous revenez au niveau <strong>« Operator »</strong>, le boîtier écarte les alarmes qui ont disparu et affiche celles qui sont toujours vraies. Voir <a href="access-levels.html#what-happens-to-the-alarms-while-the-level-is-high">Niveaux d'accès</a> et <a href="alarms-access-level.html">User is Agronomist</a>.</p>
+<h2 id="not-alarm-windows">Messages qui ne sont pas des fenêtres d'alarme</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Message</strong></th>
+<th><strong>Où</strong></th>
+<th><strong>Rubrique</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>« SLOWER »</strong>, <strong>« FASTER »</strong></td>
+<td>à la place de la valeur de vitesse</td>
+<td><a href="alarms-speed-sensor.html">Alarmes du capteur de vitesse</a></td>
+</tr>
+<tr>
+<td><strong>« NOT UNDER CONTROL »</strong></td>
+<td>sur le schéma de semis</td>
+<td><a href="alarms-seeding.html#not-under-control">Alarmes de semis</a></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="the-alarm-topics">Les rubriques d'alarme</h2>
+<p><a href="alarms-any-device.html">Tout appareil</a> · <a href="alarms-speed-sensor.html">Capteur de vitesse</a> · <a href="alarms-seeding.html">Semis</a> · <a href="alarms-sensor-state.html">État du capteur de graines</a> · <a href="alarms-rotation.html">Turbine et arbre de doseur</a> · <a href="alarms-hopper.html">Trémie</a> · <a href="alarms-pressure.html">Pression</a> · <a href="alarms-engine.html">Moteur</a> · <a href="alarms-dosing-by-weight.html">Dosage au poids</a> · <a href="alarms-access-level.html">Niveau d'accès</a> · <a href="alarms-tramline.html">Jalonnage</a> · <a href="alarms-electric-motors.html">Moteurs de doseur</a></p>
+<p>Chaque alarme a son propre titre, avec le texte exactement tel qu'il apparaît à l'écran. En dessous : ce que le boîtier a détecté, et ce qu'il faut contrôler, dans l'ordre où un mécanicien le contrôle — d'abord les contrôles rapides sur le boîtier, puis la machine, puis le capteur lui-même.</p>
+<aside class="co co-note"><div class="co-h">REMARQUE</div>
+<p>Si les contrôles ne font pas disparaître le défaut, appelez le service après-vente. Les coordonnées figurent dans la fiche technique du système.</p>
+</aside>
+<nav class="pn"><a class="pn-p" href="configure-hub8.html"><small>Précédent</small><span>Configurer un concentrateur HUB-8</span></a><a class="pn-n" href="alarms-any-device.html"><small>Suivant</small><span>L&#x27;appareil ne répond pas : Connection lost, Wrong device type!</span></a></nav><p class="help">Votre machine fait quelque chose que cette page n&#x27;explique pas ? Écrivez à <a href="mailto:support@agriwelt.com">support@agriwelt.com</a> — un ingénieur vous répond.</p></article></main><aside class="toc"><div class="toc-in"><div class="toc-h">Sur cette page</div><ul><li class="l2"><a href="#when-the-panel-raises-an-alarm">Quand le boîtier déclenche une alarme</a></li><li class="l2"><a href="#the-alarm-window">La fenêtre d&#x27;alarme</a></li><li class="l2"><a href="#closing-an-alarm">Fermer une alarme</a></li><li class="l2"><a href="#alarms-are-hidden-at-the-higher-access-levels">Les alarmes sont masquées aux niveaux d&#x27;accès élevés</a></li><li class="l2"><a href="#not-alarm-windows">Messages qui ne sont pas des fenêtres d&#x27;alarme</a></li><li class="l2"><a href="#the-alarm-topics">Les rubriques d&#x27;alarme</a></li></ul></div></aside></div>
+<div class="search" hidden>
+ <div class="search-box" role="dialog" aria-label="Recherche">
+  <div class="search-in"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Rechercher dans ce manuel…" autocomplete="off" spellcheck="false"><button type="button" class="search-x" aria-label="close">Esc</button></div>
+  <label class="search-all"><input type="checkbox"> Rechercher dans tous les produits</label>
+  <div class="search-res" data-empty="Aucun résultat. Essayez un autre mot, ou le libellé affiché à l&#x27;écran."></div>
+ </div>
+</div>
+<script>window.AW={root:"../../",lang:"fr",product:"mini"};</script>
+<script src="../../assets/search-fr.js" defer></script>
+<script src="../../assets/docs.js" defer></script>
+</body>
+</html>
