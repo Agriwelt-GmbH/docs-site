@@ -33,3 +33,20 @@ Kornsensoren und Trockendüngersensoren sind dieselbe Geräteart und teilen sich
 > **„Fraction“ ist die erste Einstellung, die Sie prüfen, wenn die Mengenalarme nicht zur Wirklichkeit passen.** Die meisten Alarme zu Menge, Fehlstellen und Doppelbelegungen nennen sie mit der Richtung, in die sie zu ändern ist: [Mengenalarme](alarms-rate.md), [Doppelbelegungen und Fehlstellen](alarms-seeding-quality.md), [Fahrgassenalarme](alarms-tramline.md).
 
 Die Sollmengen und die Alarmschwelle sind keine Menüpunkte: Sie werden während der Arbeit auf dem Startbildschirm geändert — siehe [Sollmenge ändern](set-the-target-rate.md). Der Statusbildschirm dieser Sensoren zeigt einen von acht Zuständen — siehe [Der Sensor-Statusbildschirm](sensor-status-screen.md#the-eight-states-of-a-seed-or-fertilizer-sensor). Meldet ein Sensor **„Clogged“** (verstopft), **„Light struck“** (Lichteinfall) oder **„Broken“** (defekt): [Sensor verstopft oder defekt](alarms-sensor-state.md).
+
+## Fraktion je Kultur {#fraction-for-the-crop}
+
+Richten Sie sich nach der Korngröße:
+
+| **Kultur** | **„Fraction“** |
+| --- | --- |
+| Raps | 1 – 5 |
+| Weizen | 5 – 10 |
+| Mais | 10 – 30 |
+| Sonnenblume | 10 – 30 |
+
+Stellen Sie bei pneumatischen Drillmaschinen **1** ein, gleich welche Kultur. Eine zu hohe Fraktion lässt kleine Körner aus der Zählung verschwinden – das Panel meldet dann eine zu niedrige Menge.
+
+> **WICHTIG**
+>
+> **Ändern Sie „Correction“ nur nach Rücksprache mit dem Service.** Sie wird nur in seltenen Fällen gebraucht; ein falscher Wert lässt die Sensoren Saatgut übersehen oder Staub zählen.

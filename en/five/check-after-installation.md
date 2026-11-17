@@ -33,7 +33,7 @@ Start at the **“Operator”** level: it is the level at which alarm windows ar
    **If it does not:** [Connection lost or wrong device](alarms-any-device.md) · [Sensor clogged or broken](alarms-sensor-state.md).
 
 3. **Check the counting.** Zero the readings again, as in step 2. Drop a known number of seeds, for example 20, one by one through the seed tube of one row. Read the count of that row on the table of the seed counters (“Precise” mode), the table that shows the number of seeds. On a precision planter it matches the number you dropped to within one seed, provided the **“Fraction”** of the seed sensors is set for the size of the seed. Write both numbers down. Repeat for one more row.
-   If the figure is clearly higher — up to twice the number — the fraction is set too small for this seed: a large seed, for example maize, is then counted as two. Set the fraction by the table in [Seed sensors and dry fertilizer sensors](seed-and-fertilizer-sensors.md).
+   If the figure is clearly higher — up to twice the number — the fraction is set too small for this seed: a large seed, for example maize, is then counted as two. Set the fraction by the table in [Seed sensors and dry fertilizer sensors](seed-and-fertilizer-sensors.md#fraction-for-the-crop).
 
    **If it does not:** write down both figures and see [Before you contact support](before-you-contact-us.md).
 

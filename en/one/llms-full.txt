@@ -398,7 +398,7 @@ Your machine may not have every device — skip the steps for what it does not h
 
    ![The seed counter table of an eight-row planter: seeds per section, deviation bars, total.](figures/one-table-counters)
 
-3. **Check the counting.** Only if your Table screen has the seed counter table. Zero the readings again. Drop a known number of seeds, for example 20, through one tube. Read the figure of that section on the seed counter table, which shows the number of seeds. On a precision planter it matches the number you dropped to within one seed, provided the **“Fraction”** of the seed sensors is set for the size of the seed. If the figure is clearly higher — up to twice the number — the fraction is set too small for this seed: a large seed, for example maize, is then counted as two; set the fraction by the table in [Seed and fertilizer sensors](seed-and-fertilizer-sensors.md). If the two differ in another way, write both numbers down and give them to the support ([Before you contact support](before-you-contact-us.md)).
+3. **Check the counting.** Only if your Table screen has the seed counter table. Zero the readings again. Drop a known number of seeds, for example 20, through one tube. Read the figure of that section on the seed counter table, which shows the number of seeds. On a precision planter it matches the number you dropped to within one seed, provided the **“Fraction”** of the seed sensors is set for the size of the seed. If the figure is clearly higher — up to twice the number — the fraction is set too small for this seed: a large seed, for example maize, is then counted as two; set the fraction by the table in [Seed and fertilizer sensors](seed-and-fertilizer-sensors.md#fraction-for-the-crop). If the two differ in another way, write both numbers down and give them to the support ([Before you contact support](before-you-contact-us.md)).
 
 4. **Check the work position sensor.** Only if the machine has one. Raise the implement, then lower it. The status screen of the sensor must change between **Position: Transporting** and **Position: Working**. If it shows the opposite, the setting **“Transporting position signal”** of the sensor is the wrong way round ([Hopper, implement position and engine sensors](hopper-position-engine-sensors.md)).
 
@@ -2136,6 +2136,23 @@ Seed sensors and dry fertilizer sensors are the same kind of device and share on
 > **“Fraction” is the first setting to look at when the rate alarms do not match reality.** Most rate, skip and double alarms name it, with the direction to change it: [Rate alarms](alarms-rate.md), [Doubles and skips](alarms-seeding-quality.md), [Tramline alarms](alarms-tramline.md).
 
 The target rates themselves are changed while you work, on the home screen — see [Change the target rate](set-the-target-rate.md). The status screen of these sensors shows one of eight states — see [The sensor status screen](sensor-status-screen.md#the-eight-states-of-a-seed-or-fertilizer-sensor). If a sensor reports **“Clogged”**, **“Light struck”** or **“Broken”**: [Sensor clogged or broken](alarms-sensor-state.md).
+
+## Fraction for the crop {#fraction-for-the-crop}
+
+Go by the size of the seed:
+
+| **Crop** | **“Fraction”** |
+| --- | --- |
+| Rapeseed | 1 – 5 |
+| Wheat | 5 – 10 |
+| Maize | 10 – 30 |
+| Sunflower | 10 – 30 |
+
+On pneumatic drills set **1** whatever the crop. Too high a fraction makes small seeds disappear from the count — the panel then reports too low a rate.
+
+> **IMPORTANT**
+>
+> **Change “Correction” only after talking to the service.** It is needed in rare cases only; a wrong value makes the sensors miss seed or count dust.
 
 
 # Liquid fertilizer sensors and pump controller

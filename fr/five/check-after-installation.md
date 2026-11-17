@@ -33,7 +33,7 @@ Commencez au niveau **« Operator »** : c'est le niveau où les fenêtres d'ala
    **Sinon :** [Connexion perdue, mauvais appareil](alarms-any-device.md) · [Capteur obstrué ou cassé](alarms-sensor-state.md).
 
 3. **Vérifiez le comptage.** Remettez les mesures à zéro, comme à l'étape 2. Laissez tomber un nombre connu de graines, par exemple 20, une par une dans le tube de descente de graines d'un rang. Lisez le compteur de ce rang dans le tableau des compteurs de graines (mode « Precise »), le tableau qui indique le nombre de graines. Sur un semoir monograine, il correspond au nombre que vous avez laissé tomber, à une graine près, à condition que **« Fraction »** des capteurs de graines soit réglée pour la taille de la graine. Notez les deux nombres. Recommencez pour un autre rang.
-   Si le chiffre est nettement plus élevé — jusqu'au double du nombre —, la fraction est réglée trop petite pour cette graine : une grosse graine, par exemple le maïs, est alors comptée pour deux. Réglez la fraction d'après le tableau de [Capteurs de graines et capteurs d'engrais solide](seed-and-fertilizer-sensors.md).
+   Si le chiffre est nettement plus élevé — jusqu'au double du nombre —, la fraction est réglée trop petite pour cette graine : une grosse graine, par exemple le maïs, est alors comptée pour deux. Réglez la fraction d'après le tableau de [Capteurs de graines et capteurs d'engrais solide](seed-and-fertilizer-sensors.md#fraction-for-the-crop).
 
    **Sinon :** notez les deux valeurs et lisez [Avant de contacter l'assistance](before-you-contact-us.md).
 

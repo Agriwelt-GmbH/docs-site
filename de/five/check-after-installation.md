@@ -33,7 +33,7 @@ Beginnen Sie auf der Ebene **„Operator“** (Fahrer): Auf ihr werden Alarmfens
    **Wenn nicht:** [Verbindung verloren, falsches Gerät](alarms-any-device.md) · [Sensor verstopft oder defekt](alarms-sensor-state.md).
 
 3. **Prüfen Sie die Zählung.** Nullen Sie die Messwerte erneut, wie in Schritt 2. Lassen Sie eine bekannte Anzahl Körner, zum Beispiel 20, einzeln durch das Saatrohr einer Reihe fallen. Lesen Sie den Zählerstand dieser Reihe in der Tabelle der Kornzähler ab (Modus „Precise“), der Tabelle, die die Anzahl der Körner zeigt. Bei einer Einzelkornsämaschine stimmt er bis auf ein Korn mit der Zahl überein, die Sie fallen ließen, sofern die **„Fraction“** (Fraktion) der Kornsensoren auf die Größe des Korns eingestellt ist. Notieren Sie beide Zahlen. Wiederholen Sie dies bei einer weiteren Reihe.
-   Ist der Wert deutlich höher – bis zum Doppelten der Zahl –, ist die Fraktion für dieses Korn zu klein eingestellt: Ein großes Korn, zum Beispiel Mais, wird dann als zwei gezählt. Stellen Sie die Fraktion nach der Tabelle in [Kornsensoren und Trockendüngersensoren](seed-and-fertilizer-sensors.md) ein.
+   Ist der Wert deutlich höher – bis zum Doppelten der Zahl –, ist die Fraktion für dieses Korn zu klein eingestellt: Ein großes Korn, zum Beispiel Mais, wird dann als zwei gezählt. Stellen Sie die Fraktion nach der Tabelle in [Kornsensoren und Trockendüngersensoren](seed-and-fertilizer-sensors.md#fraction-for-the-crop) ein.
 
    **Wenn nicht:** Notieren Sie beide Werte und lesen Sie [Bevor Sie den Support kontaktieren](before-you-contact-us.md).
 

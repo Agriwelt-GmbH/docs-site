@@ -16,7 +16,7 @@
 
 <script>try{var t=localStorage.getItem('aw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../assets/docs.css">
+<link rel="stylesheet" href="../../assets/docs.css?v=2611172105">
 </head>
 <body>
 <header class="top">
@@ -25,6 +25,7 @@
  <a class="crumb" href="../../en/one/index.html">Hectare One</a>
  <div class="top-r">
   <button class="search-btn" type="button" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Search</span><kbd>/</kbd></button>
+  <a class="top-site" href="https://agriwelt.com">agriwelt.com</a>
   <nav class="langs" aria-label="Language"><a href="../../en/one/all.html" class="on" hreflang="en">EN</a><a href="../../de/one/all.html" hreflang="de">DE</a><a href="../../fr/one/all.html" hreflang="fr">FR</a></nav>
   <button class="theme-btn" type="button" aria-label="Light / dark" title="Light / dark"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
  </div>
@@ -495,7 +496,7 @@
 <img src="../../assets/fig/one/one-table-counters-en.png" alt="The seed counter table of an eight-row planter: seeds per section, deviation bars, total." width="800" height="480" class="scr scr-800" loading="lazy">
 <figcaption>The seed counter table of an eight-row planter: seeds per section, deviation bars, total.</figcaption>
 </figure></li>
-<li><p><strong>Check the counting.</strong> Only if your Table screen has the seed counter table. Zero the readings again. Drop a known number of seeds, for example 20, through one tube. Read the figure of that section on the seed counter table, which shows the number of seeds. On a precision planter it matches the number you dropped to within one seed, provided the <strong>“Fraction”</strong> of the seed sensors is set for the size of the seed. If the figure is clearly higher — up to twice the number — the fraction is set too small for this seed: a large seed, for example maize, is then counted as two; set the fraction by the table in <a href="#seed-and-fertilizer-sensors">Seed and fertilizer sensors</a>. If the two differ in another way, write both numbers down and give them to the support (<a href="#before-you-contact-us">Before you contact support</a>).</p></li>
+<li><p><strong>Check the counting.</strong> Only if your Table screen has the seed counter table. Zero the readings again. Drop a known number of seeds, for example 20, through one tube. Read the figure of that section on the seed counter table, which shows the number of seeds. On a precision planter it matches the number you dropped to within one seed, provided the <strong>“Fraction”</strong> of the seed sensors is set for the size of the seed. If the figure is clearly higher — up to twice the number — the fraction is set too small for this seed: a large seed, for example maize, is then counted as two; set the fraction by the table in <a href="#fraction-for-the-crop">Seed and fertilizer sensors</a>. If the two differ in another way, write both numbers down and give them to the support (<a href="#before-you-contact-us">Before you contact support</a>).</p></li>
 <li><p><strong>Check the work position sensor.</strong> Only if the machine has one. Raise the implement, then lower it. The status screen of the sensor must change between <strong>Position: Transporting</strong> and <strong>Position: Working</strong>. If it shows the opposite, the setting <strong>“Transporting position signal”</strong> of the sensor is the wrong way round (<a href="#hopper-position-engine-sensors">Hopper, implement position and engine sensors</a>).</p></li>
 <li><p><strong>Check the speed.</strong> Drive. The speed field on the home screen must show a number in white. <strong>XX.X</strong> in red means the input device of the speed sensor does not answer. A yellow figure alternating with <strong>“IMITATION”</strong> means the speed is simulated, not measured. <strong>“SLOWER”</strong> and <strong>“FASTER”</strong> only say that you are outside the permitted range (<a href="#indicators">Indicators</a>). If the figure does not match the real speed, calibrate the sensor (<a href="#calibrate-speed">Calibrate the speed sensor</a>). If the sensor fails, see <a href="#work-without-speed-sensor">Work without the speed sensor</a>.</p></li>
 <li><p><strong>Check the other sensors the machine has.</strong> One short check each:</p>
@@ -3346,6 +3347,38 @@
 <p><strong>“Fraction” is the first setting to look at when the rate alarms do not match reality.</strong> Most rate, skip and double alarms name it, with the direction to change it: <a href="#alarms-rate">Rate alarms</a>, <a href="#alarms-seeding-quality">Doubles and skips</a>, <a href="#alarms-tramline">Tramline alarms</a>.</p>
 </aside>
 <p>The target rates themselves are changed while you work, on the home screen — see <a href="#set-the-target-rate">Change the target rate</a>. The status screen of these sensors shows one of eight states — see <a href="#the-eight-states-of-a-seed-or-fertilizer-sensor">The sensor status screen</a>. If a sensor reports <strong>“Clogged”</strong>, <strong>“Light struck”</strong> or <strong>“Broken”</strong>: <a href="#alarms-sensor-state">Sensor clogged or broken</a>.</p>
+<h2 id="fraction-for-the-crop">Fraction for the crop</h2>
+<p>Go by the size of the seed:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th><strong>Crop</strong></th>
+<th><strong>“Fraction”</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rapeseed</td>
+<td>1 – 5</td>
+</tr>
+<tr>
+<td>Wheat</td>
+<td>5 – 10</td>
+</tr>
+<tr>
+<td>Maize</td>
+<td>10 – 30</td>
+</tr>
+<tr>
+<td>Sunflower</td>
+<td>10 – 30</td>
+</tr>
+</tbody>
+</table></div>
+<p>On pneumatic drills set <strong>1</strong> whatever the crop. Too high a fraction makes small seeds disappear from the count — the panel then reports too low a rate.</p>
+<aside class="co co-important"><div class="co-h">IMPORTANT</div>
+<p><strong>Change “Correction” only after talking to the service.</strong> It is needed in rare cases only; a wrong value makes the sensors miss seed or count dust.</p>
+</aside>
 </section><section class="all-topic" id="liquid-fertilizer"><h1>Liquid fertilizer sensors and pump controller</h1><p class="lead">The parameters of the liquid fertilizer section sensors and of the liquid fertilizer pump controller.</p><p>Liquid fertilizer is watched by flow sensors in the sections; on some machines a pump controller also drives the pump to the rate. Open the context menu of either as in <a href="#sensor-settings">Sensor settings</a>.</p>
 <h2 id="liquid-fertilizer-section-sensors">Liquid fertilizer section sensors</h2>
 <div class="tw"><table>
@@ -5684,6 +5717,7 @@
 <h2 id="alarm-topics">Alarm topics</h2>
 <p><a href="#how-alarms-work">How alarms work</a> · <a href="#alarms-any-device">Any device: connection lost or wrong device type</a> · <a href="#alarms-sensor-state">Seed or fertilizer sensor clogged, light-struck or broken</a> · <a href="#alarms-speed-sensor">Travel speed sensor failed, or speed limits contradict</a> · <a href="#work-without-speed-sensor">Work without the speed sensor</a></p>
 </section></article></main></div>
+<footer class="foot noprint"><p>&copy; Agriwelt GmbH<span class="foot-sep" aria-hidden="true">·</span><a href="https://agriwelt.com">agriwelt.com</a><span class="foot-sep" aria-hidden="true">·</span><span class="foot-mail">support@agriwelt.com</span><span class="foot-sep" aria-hidden="true">·</span><a href="https://agriwelt.com/policies/legal-notice">Legal notice</a><span class="foot-sep" aria-hidden="true">·</span><a href="https://agriwelt.com/policies/privacy-policy">Privacy policy</a></p></footer>
 <div class="search" hidden>
  <div class="search-box" role="dialog" aria-label="Search">
   <div class="search-in"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Search this manual…" autocomplete="off" spellcheck="false"><button type="button" class="search-x" aria-label="close">Esc</button></div>
@@ -5692,7 +5726,7 @@
  </div>
 </div>
 <script>window.AW={root:"../../",lang:"en",product:"one"};</script>
-<script src="../../assets/search-en.js" defer></script>
-<script src="../../assets/docs.js" defer></script>
+<script src="../../assets/search-en.js?v=2611172105" defer></script>
+<script src="../../assets/docs.js?v=2611172105" defer></script>
 </body>
 </html>

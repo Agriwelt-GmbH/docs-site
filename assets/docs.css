@@ -44,6 +44,8 @@ kbd{font:600 12px/1 var(--f-mono);border:1px solid var(--rule);border-radius:5px
 .search-btn{display:flex;align-items:center;gap:8px;height:36px;padding:0 10px 0 12px;border:1px solid var(--rule);border-radius:9px;background:var(--bg);color:var(--dim);min-width:210px}
 .search-btn span{flex:1;text-align:left;font-size:14.5px}
 .search-btn:hover{border-color:var(--acc);color:var(--ink)}
+.top-site{font:600 13px/1 var(--f-head);color:var(--dim);text-decoration:none;white-space:nowrap;letter-spacing:.02em;padding:0 4px}
+.top-site:hover{color:var(--ink)}
 .langs{display:flex;border:1px solid var(--rule);border-radius:9px;overflow:hidden}
 .langs a{font:600 12.5px/34px var(--f-head);padding:0 9px;text-decoration:none;color:var(--dim);letter-spacing:.04em}
 .langs a.on{background:var(--ink);color:var(--bg)}
@@ -201,19 +203,37 @@ ol.an-legend a{white-space:nowrap}
 .tlist a{font:700 16px/1.25 var(--f-head);color:var(--ink);text-decoration:none;display:block;margin-bottom:5px}
 .tlist a::after{content:"";position:absolute;inset:0}
 .tlist span{font-size:14px;line-height:1.4;color:var(--dim);display:block}
-.home-h{text-align:center;padding:38px 0 12px}
-.home-h h1{font-size:44px}
+.home-h{text-align:center;padding:30px 0 6px}
+.home-h h1{font-size:36px;font-weight:700;letter-spacing:-.005em}
 .home-h .lead{margin:0 auto 24px}
 .home-search{margin:0 auto;min-width:min(520px,100%);height:50px;font-size:16px;background:var(--panel)}
 .grp h2{font-size:14px;letter-spacing:.11em;text-transform:uppercase;color:var(--dim);border:0;margin:40px 0 14px;padding:0}
 .pcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
 .pcard{display:flex;flex-direction:column;padding:18px;border:1px solid var(--rule);border-radius:16px;background:var(--panel);text-decoration:none;color:var(--ink)}
-.pcard:hover{border-color:var(--acc);transform:translateY(-2px);transition:transform .15s}
+.pcard:hover{border-color:var(--acc)}
 .pcard-i{height:170px;display:grid;place-items:center;background:var(--soft);border-radius:10px;margin-bottom:16px;overflow:hidden}
 .pcard-i img{max-height:150px;width:auto;max-width:90%}
 .pcard h3{margin:0 0 6px;font-size:21px}
 .pcard p{font-size:14.5px;line-height:1.45;color:var(--dim);margin:0 0 14px;flex:1}
 .pcard-n{font:700 13px/1 var(--f-head);color:var(--acc)}
+/* home: task tiles */
+.tasks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:34px 0 6px}
+.task{display:flex;flex-direction:column;min-width:0;padding:16px 18px;border:1px solid var(--rule);border-radius:16px;background:var(--panel)}
+.task h2{font-size:16.5px;font-weight:700;line-height:1.25;margin:0 0 6px;padding:0;border:0;letter-spacing:0;overflow-wrap:break-word;hyphens:auto}
+.task p{font-size:14px;line-height:1.45;color:var(--dim);margin:0 0 14px;flex:1}
+.task-p{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 0;padding-top:12px;border-top:1px solid var(--rule);font:600 14px/1.3 var(--f-head)}
+.task-p a{text-decoration:none}
+.task-p a:hover{text-decoration:underline}
+.task-sep{color:var(--dim);padding:0 9px}
+/* footer, every page */
+.foot{border-top:1px solid var(--rule);background:var(--panel);padding:18px 18px calc(20px + env(safe-area-inset-bottom,0px));text-align:center;font-size:13px;line-height:1.6;color:var(--dim)}
+.foot p{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;row-gap:2px;margin:0 auto;max-width:1040px}
+.foot p>*{white-space:nowrap}
+.foot a{color:var(--dim);text-decoration:none}
+.foot a:hover{color:var(--ink);text-decoration:underline}
+.foot-mail{user-select:all;-webkit-user-select:all}
+.foot-sep{padding:0 9px}
+@media screen and (max-width:1020px){.tasks{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* search */
 .search{position:fixed;inset:0;z-index:60;background:rgba(10,12,11,.55);display:flex;justify-content:center;align-items:flex-start;padding:9vh 16px 16px}
@@ -271,7 +291,7 @@ ol.an-legend a{white-space:nowrap}
   .search-btn span,.search-btn kbd{display:none}
   .home-search{width:100%;padding:0 14px;justify-content:flex-start}
   .home-search span{display:block}
-  h1{font-size:29px} .home-h h1{font-size:31px}
+  h1{font-size:29px} .home-h h1{font-size:28px}
   h2{font-size:22px;margin-top:40px}
   .lead{font-size:18px}
   ol.an-legend{columns:1}
@@ -288,7 +308,7 @@ ol.an-legend a{white-space:nowrap}
 @media print{
   :root{--bg:#fff;--panel:#fff;--ink:#000;--dim:#444;--rule:#bbb;--soft:#f1f1ee;--acc:#00664f;--acc-soft:#e3f1ed;--mark:#ffe48a;--scr:#000;--bezel:#1c1c1c;
         --note:#0e6f83;--imp:#1f55b8;--warn:#a85d00;--danger:#b3231d;--caution:#7c6400;--tip:#00664f}
-  .top,.side,.toc,.pn,.help,.search,.noprint,.fb-note:empty{display:none!important}
+  .top,.side,.toc,.pn,.help,.search,.noprint,.foot,.fb-note:empty{display:none!important}
   html,body{background:#fff}
   .wrap{display:block;max-width:none}
   main{padding:0}
@@ -335,4 +355,6 @@ ol.an-legend a{white-space:nowrap}
   .fb-note{font-size:6.6pt;margin-top:3pt;text-align:center}
 }
 /* phone: the header must fit 360 px, otherwise the theme button runs off the right edge */
+@media screen and (max-width:560px){.top-site{display:none}}
+@media screen and (max-width:480px){.tasks{gap:10px;margin-top:26px}.task{padding:13px 13px 12px}.task h2{font-size:15px}.task p{font-size:13.5px}.task-sep{padding:0 7px}.foot-sep{padding:0 6px}}
 @media screen and (max-width:480px){.top{gap:8px;padding:0 10px}.brand-d{display:none}.brand-a{font-size:13px;letter-spacing:.1em}.langs a{padding:0 7px}.top-r{gap:8px}}

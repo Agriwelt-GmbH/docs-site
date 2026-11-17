@@ -33,3 +33,20 @@ Seed sensors and dry fertilizer sensors are the same kind of device and share on
 > **“Fraction” is the first setting to look at when the rate alarms do not match reality.** Most rate, skip and double alarms name it, with the direction to change it: [Rate alarms](alarms-rate.md), [Doubles and skips](alarms-seeding-quality.md), [Tramline alarms](alarms-tramline.md).
 
 The target rates and the alarm level are not menu items: they are changed while you work, on the home screen — see [Change the target rate](set-the-target-rate.md). The status screen of these sensors shows one of eight states — see [The sensor status screen](sensor-status-screen.md#the-eight-states-of-a-seed-or-fertilizer-sensor). If a sensor reports **“Clogged”**, **“Light struck”** or **“Broken”**: [Sensor clogged or broken](alarms-sensor-state.md).
+
+## Fraction for the crop {#fraction-for-the-crop}
+
+Go by the size of the seed:
+
+| **Crop** | **“Fraction”** |
+| --- | --- |
+| Rapeseed | 1 – 5 |
+| Wheat | 5 – 10 |
+| Maize | 10 – 30 |
+| Sunflower | 10 – 30 |
+
+On pneumatic drills set **1** whatever the crop. Too high a fraction makes small seeds disappear from the count — the panel then reports too low a rate.
+
+> **IMPORTANT**
+>
+> **Change “Correction” only after talking to the service.** It is needed in rare cases only; a wrong value makes the sensors miss seed or count dust.

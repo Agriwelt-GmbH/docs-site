@@ -33,3 +33,20 @@ Les capteurs de graines et les capteurs d'engrais solide sont des appareils de m
 > **« Fraction » est le premier réglage à examiner quand les alarmes de dose ne correspondent pas à la réalité.** La plupart des alarmes de dose, de manques et de doubles le nomment, avec le sens dans lequel le modifier : [Alarmes de dose](alarms-rate.md), [Doubles et manques](alarms-seeding-quality.md), [Alarmes de jalonnage](alarms-tramline.md).
 
 Les doses de consigne et le seuil d'alarme ne sont pas des éléments de menu : ils se modifient pendant le travail, sur l'écran d'accueil — voir [Modifier la dose de consigne](set-the-target-rate.md). L'écran d'état de ces capteurs montre l'un de huit états — voir [L'écran d'état d'un capteur](sensor-status-screen.md#the-eight-states-of-a-seed-or-fertilizer-sensor). Si un capteur signale **« Clogged »** (obstrué), **« Light struck »** (éblouissement) ou **« Broken »** (cassé) : [Capteur obstrué ou cassé](alarms-sensor-state.md).
+
+## Fraction selon la culture {#fraction-for-the-crop}
+
+Guidez-vous sur la taille de la semence :
+
+| **Culture** | **« Fraction »** |
+| --- | --- |
+| Colza | 1 – 5 |
+| Blé | 5 – 10 |
+| Maïs | 10 – 30 |
+| Tournesol | 10 – 30 |
+
+Sur les semoirs pneumatiques, réglez **1** quelle que soit la culture. Une fraction trop élevée fait disparaître les petites graines du comptage — le boîtier indique alors une dose trop faible.
+
+> **IMPORTANT**
+>
+> **Ne modifiez « Correction » qu'après avoir consulté le service après-vente.** Elle n'est nécessaire que dans de rares cas ; une valeur erronée fait manquer des graines aux capteurs ou leur fait compter de la poussière.

@@ -398,7 +398,7 @@ Ihre Maschine hat möglicherweise nicht jedes Gerät — überspringen Sie die S
 
    ![Die Kornzähler-Tabelle eines Achtreihen-Einzelkornsägeräts: Körner je Sektion, Abweichungsbalken, Summe.](figures/one-table-counters)
 
-3. **Das Zählen prüfen.** Nur wenn Ihr Bildschirm Tabelle die Kornzähler-Tabelle hat. Setzen Sie die Werte erneut zurück. Lassen Sie eine bekannte Anzahl Körner, zum Beispiel 20, durch ein Saatrohr fallen. Lesen Sie die Zahl dieser Sektion in der Kornzähler-Tabelle ab, die die Anzahl der Körner zeigt. Bei einer Einzelkornsämaschine stimmt sie bis auf ein Korn mit der Anzahl überein, die Sie fallen ließen, sofern die **„Fraktion“** der Kornsensoren auf die Größe des Korns eingestellt ist. Ist die Zahl deutlich höher – bis zum Doppelten der Anzahl –, ist die Fraktion für dieses Korn zu klein eingestellt: Ein großes Korn, zum Beispiel Mais, wird dann als zwei gezählt; stellen Sie die Fraktion nach der Tabelle in [Korn- und Düngersensoren](seed-and-fertilizer-sensors.md) ein. Weichen beide anders ab, notieren Sie beide Zahlen und geben Sie sie an den Support weiter ([Bevor Sie den Support kontaktieren](before-you-contact-us.md)).
+3. **Das Zählen prüfen.** Nur wenn Ihr Bildschirm Tabelle die Kornzähler-Tabelle hat. Setzen Sie die Werte erneut zurück. Lassen Sie eine bekannte Anzahl Körner, zum Beispiel 20, durch ein Saatrohr fallen. Lesen Sie die Zahl dieser Sektion in der Kornzähler-Tabelle ab, die die Anzahl der Körner zeigt. Bei einer Einzelkornsämaschine stimmt sie bis auf ein Korn mit der Anzahl überein, die Sie fallen ließen, sofern die **„Fraktion“** der Kornsensoren auf die Größe des Korns eingestellt ist. Ist die Zahl deutlich höher – bis zum Doppelten der Anzahl –, ist die Fraktion für dieses Korn zu klein eingestellt: Ein großes Korn, zum Beispiel Mais, wird dann als zwei gezählt; stellen Sie die Fraktion nach der Tabelle in [Korn- und Düngersensoren](seed-and-fertilizer-sensors.md#fraction-for-the-crop) ein. Weichen beide anders ab, notieren Sie beide Zahlen und geben Sie sie an den Support weiter ([Bevor Sie den Support kontaktieren](before-you-contact-us.md)).
 
 4. **Den Arbeitsstellungssensor prüfen.** Nur wenn die Maschine einen hat. Heben Sie das Gerät an und senken Sie es dann ab. Der Statusbildschirm des Sensors muss zwischen **Position: Transport** und **Position: Arbeit** wechseln. Zeigt er das Gegenteil, ist die Einstellung **„Signal Transportstellung“** des Sensors verkehrt herum ([Behälter-, Arbeitsstellungs- und Motorsensoren](hopper-position-engine-sensors.md)).
 
@@ -2135,6 +2135,23 @@ Kornsensoren und Trockendüngersensoren sind dieselbe Geräteart und teilen sich
 > **„Fraktion“ ist die erste Einstellung, die Sie prüfen, wenn die Mengenalarme nicht zur Wirklichkeit passen.** Die meisten Alarme zu Menge, Fehlstellen und Doppeln nennen sie samt der Richtung, in die Sie sie ändern: [Mengenalarme](alarms-rate.md), [Doppel und Fehlstellen](alarms-seeding-quality.md), [Fahrgassenalarme](alarms-tramline.md).
 
 Die Sollmengen selbst ändern Sie während der Arbeit auf dem Startbildschirm – siehe [Sollmenge ändern](set-the-target-rate.md). Der Statusbildschirm dieser Sensoren zeigt einen von acht Zuständen – siehe [Der Sensor-Statusbildschirm](sensor-status-screen.md#the-eight-states-of-a-seed-or-fertilizer-sensor). Meldet ein Sensor **„Verstopft“**, **„Fremdlicht“** oder **„Defekt“**: [Sensor verstopft oder defekt](alarms-sensor-state.md).
+
+## Fraktion je Kultur {#fraction-for-the-crop}
+
+Richten Sie sich nach der Korngröße:
+
+| **Kultur** | **„Fraktion“** |
+| --- | --- |
+| Raps | 1 – 5 |
+| Weizen | 5 – 10 |
+| Mais | 10 – 30 |
+| Sonnenblume | 10 – 30 |
+
+Stellen Sie bei pneumatischen Drillmaschinen **1** ein, gleich welche Kultur. Eine zu hohe Fraktion lässt kleine Körner aus der Zählung verschwinden – das Panel meldet dann eine zu niedrige Menge.
+
+> **WICHTIG**
+>
+> **Ändern Sie „Korrektur“ nur nach Rücksprache mit dem Service.** Sie wird nur in seltenen Fällen gebraucht; ein falscher Wert lässt die Sensoren Saatgut übersehen oder Staub zählen.
 
 
 # Flüssigdüngersensoren und Pumpencontroller
