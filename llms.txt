@@ -13,6 +13,7 @@
 - [Switching on](https://docs.agriwelt.com/en/one/switching-on.md): What the panel does after power-on, which access level it starts at, and what a long splash screen means.
 - [Menus, context menus, number pad and windows](https://docs.agriwelt.com/en/one/interface-basics.md): The five things everything on the panel is done through — working screens, the main menu, the context menu of a device, the number pad, and the windows that ask or tell.
 - [Quick start — getting ready and moving off](https://docs.agriwelt.com/en/one/quick-start.md): The order of getting the machine ready, what to check before the field, what happens when you move off, and what to watch while working.
+- [Check the system after installation](https://docs.agriwelt.com/en/one/check-after-installation.md): A one-time procedure for the installer — prove step by step that every device answers, every seed sensor sits in its own row and the machine reads correctly, then record the result.
 - [About the pictures in this manual](https://docs.agriwelt.com/en/one/about-the-pictures.md): The screens in this manual were shot on a test bench. What on them belongs to the bench and not to your machine.
 - [The home screen](https://docs.agriwelt.com/en/one/home-screen.md): What every part of the home screen is — speed, indicators, area, rates, the section diagrams — on a drill standing still and on a planter at work.
 - [The section diagram — columns, line and colours](https://docs.agriwelt.com/en/one/section-diagram.md): How to read the columns of the home screen in the "Precise" and the "Flow" mode, and what the control line means.
@@ -82,6 +83,7 @@
 - [Read the fault code of an electric motor](https://docs.agriwelt.com/en/one/motor-fault-codes.md): Where the panel shows the numeric fault code of a metering motor controller, and what each code means.
 - [Buttons and gestures on every screen](https://docs.agriwelt.com/en/one/buttons-and-gestures.md): What each of the seven buttons and each touch gesture does — on the home screen, in menus, in windows, on the number pad and on every working screen.
 - [Terms](https://docs.agriwelt.com/en/one/terms.md): The words this manual uses for rates, control, sensors, tramlines and devices — what each means on the Hectare One.
+- [Before you contact support](https://docs.agriwelt.com/en/one/before-you-contact-us.md): What to check, what to write down and which photos to take before you ask for help, and whom to ask first.
 
 ## Hectare 5
 
@@ -91,6 +93,7 @@
 - [Switching on](https://docs.agriwelt.com/en/five/switching-on.md): What the panel does after power-on, which state it starts in, and what to wait for before switching off.
 - [Menus, context menus, number pad and windows](https://docs.agriwelt.com/en/five/interface-basics.md): The five things everything on the panel is done through — working screens, the main menu, the context menu of a device, the number pad, and the windows that ask or tell — and how each is worked by touch.
 - [Quick start — getting ready and moving off](https://docs.agriwelt.com/en/five/quick-start.md): The order of getting the machine ready, what to check before the field, what happens when you move off, and what to watch while working.
+- [Check the system after installation](https://docs.agriwelt.com/en/five/check-after-installation.md): A step-by-step check to run once after mounting — every device answers, every seed sensor sits in its own row, the counting, work position, speed and the other sensors work — and what to record.
 - [About the pictures in this manual](https://docs.agriwelt.com/en/five/about-the-pictures.md): Which pictures of this manual are still to come, why the text stands without them, and what on a bench picture belongs to the bench and not to your machine.
 - [The home screen](https://docs.agriwelt.com/en/five/home-screen.md): What every part of the home screen is — speed, indicators, area, rates, the section diagrams — on a drill standing still and on a planter at work, and what you can do from it by touch.
 - [The section diagram — columns, line and colours](https://docs.agriwelt.com/en/five/section-diagram.md): How to read the columns of the home screen in the "Precise" and the "Flow" mode, and what the control line means.
@@ -159,6 +162,7 @@
 - [Read the fault code of an electric motor](https://docs.agriwelt.com/en/five/motor-fault-codes.md): Where the panel shows the numeric fault code of a metering motor controller, and what each code means.
 - [Touch zones and gestures on every screen](https://docs.agriwelt.com/en/five/buttons-and-gestures.md): What each touch gesture does — on the home screen, the second home screen, the working screens, in menus, on the number pad and in windows.
 - [Terms](https://docs.agriwelt.com/en/five/terms.md): The words this manual uses for gestures, rates, control, sensors, tramlines and devices — what each means on the Hectare 5.
+- [Before you contact support](https://docs.agriwelt.com/en/five/before-you-contact-us.md): A checklist — what to try, what to write down and which photos to attach — so that your question can be answered at once, and whom to contact first.
 
 ## Hectare Mini
 
@@ -193,6 +197,7 @@
 - [Access levels](https://docs.agriwelt.com/en/mini/access-levels.md): The three access levels of the Hectare Mini — Operator, Agronomist, Service — what each one opens, what happens to the alarms at the higher levels, and how to get back to Operator.
 - [Enable the Agronomist level](https://docs.agriwelt.com/en/mini/enable-agronomist-level.md): The steps, with the screen of each, to raise the access level of the Hectare Mini to "Agronomist" or "Service" before changing settings, and to return to "Operator" afterwards.
 - [Check the profile and the connections](https://docs.agriwelt.com/en/mini/check-profile-and-connections.md): The first check after installing a Hectare Mini — does the profile match the machine, does every device answer, is every sensor under control — as a procedure with what the screen shows at each step.
+- [Check the system after installation](https://docs.agriwelt.com/en/mini/check-after-installation.md): The checks to run once after mounting a Hectare Mini — every sensor in its own row, counting, work position, speed and the other sensors — with what the screen must show at each step and where to go when it does not.
 - [The profile](https://docs.agriwelt.com/en/mini/profile.md): What the profile of the Hectare Mini is, every item of the profile menu with its values, and the rules a profile must keep before the panel accepts it.
 - [Set up the profile](https://docs.agriwelt.com/en/mini/set-up-the-profile.md): The steps to change the profile of the Hectare Mini — reach the profile menu at the Service level, enter the devices of the machine, save, and let the panel restart.
 - [The Settings menu](https://docs.agriwelt.com/en/mini/settings-menu.md): Every item of the Settings menu of the Hectare Mini — sound, language, diagram settings, date and time, alarm delay, product rate error, machine parameters, user — with its access level, range and default.
@@ -232,3 +237,4 @@
 - [The context menu of a dispenser motor](https://docs.agriwelt.com/en/mini/motor-context-menu.md): Every item of the context menu of a dispenser electric motor — what it sets, from which access level it is visible, and what "Reset to defaults" really resets.
 - [Buttons on every screen](https://docs.agriwelt.com/en/mini/buttons-and-gestures.md): What each of the seven buttons does with a short and a long press — and where the screen takes touches — on the home screen, in menus, in windows and on every working screen.
 - [Terms used in this manual](https://docs.agriwelt.com/en/mini/terms.md): The words of the Hectare Mini manual in one place — from active field and alarm level to singulation, spacing and tramline rhythm.
+- [Before you contact support](https://docs.agriwelt.com/en/mini/before-you-contact-us.md): What to check, what to write down and which photos to take before you ask for help with a Hectare Mini — and whom to ask first.
