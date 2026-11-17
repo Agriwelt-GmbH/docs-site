@@ -123,7 +123,7 @@
       var r = h[1], pos = r._n[2].indexOf(terms[0]), from = Math.max(0, pos - 60);
       var snip = (from ? '…' : '') + r.x.slice(from, from + 190).replace(/\n/g, ' ') + '…';
       var a = d.createElement('a'); a.className = 'sr'; a.href = AW.root + r.u;
-      a.innerHTML = '<div class="sr-p">' + r.p.toUpperCase() + '</div><div class="sr-t">' + hl(r.t + (r.h ? ' › ' + r.h : ''), terms) + '</div><div class="sr-x">' + hl(snip, terms) + '</div>';
+      a.innerHTML = '<div class="sr-p">' + ((AW.names && AW.names[r.p]) || r.p) + '</div><div class="sr-t">' + hl(r.t + (r.h ? ' › ' + r.h : ''), terms) + '</div><div class="sr-x">' + hl(snip, terms) + '</div>';
       res.appendChild(a);
     });
   }
